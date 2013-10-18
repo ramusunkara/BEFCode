@@ -19,7 +19,9 @@ group :test do
 end
 
 group :development, :test do
+  gem 'better_errors'
   gem 'factory_girl_rails'
+  gem 'jazz_hands'
   gem 'rspec-rails', '~> 2.0'
 end
 
