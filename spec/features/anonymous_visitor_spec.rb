@@ -10,7 +10,18 @@ describe 'anonymous visitor' do
     it 'they should be able to navigate to the Badgers page' do
       visit '/'
       click_link 'Badgers'
-      expect(page).to have_content 'list of people'
+      expect(current_path).to eq '/people'
+    end
+  end
+
+  context 'when they visit the Badgers page' do
+    before do
+      create :person, last_name: 'Adams'
+    end
+
+    it 'they should see Adams' do
+      visit people_path
+      expect(page).to have_content 'Adams'
     end
   end
 end

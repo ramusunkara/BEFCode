@@ -7,5 +7,11 @@ describe PeopleController do
 
       expect(response).to render_template('index')
     end
+
+    it 'exposes :people' do
+      get :index
+
+      expect(controller.people).to eq Person.all
+    end
   end
 end
