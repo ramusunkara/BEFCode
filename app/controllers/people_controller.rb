@@ -1,5 +1,6 @@
 class PeopleController < ApplicationController
-  expose(:people) { Person.all.decorate }
+  expose(:tag_title) { params[:tag_title] }
+  expose(:people) { Person.for_tag_title(tag_title).decorate }
 
   def index
   end
