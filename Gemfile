@@ -3,7 +3,6 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 gem 'activeadmin', github: 'gregbell/active_admin'
-gem 'capybara-webkit'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'decent_exposure'
 gem 'devise'
@@ -24,6 +23,7 @@ end
 
 group :development, :test do
   gem 'better_errors'
+  gem 'capybara-webkit'
   gem 'factory_girl_rails'
   gem 'jazz_hands'
   gem 'rspec-rails', '~> 2.0'
