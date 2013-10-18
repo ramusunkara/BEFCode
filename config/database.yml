@@ -13,11 +13,3 @@ test:
   pool: 5
   username: BEF
   password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: BEF_production
-  pool: 5
-  username: BEF
-  password:
