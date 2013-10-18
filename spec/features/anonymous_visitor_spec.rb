@@ -15,13 +15,58 @@ describe 'anonymous visitor' do
   end
 
   context 'when they visit the Badgers page' do
+    let(:tag_titles) { %w(consultant faculty) }
+    let(:tags) do
+      tag_titles.map { |title| create :tag, title: title }
+    end
+    let(:lawyer_tag) { create :tag, title: 'lawyer' }
+    let(:person) { create :person, last_name: 'Adams' }
+    let(:lawyer) { create :person, last_name: 'Douglas' }
+
     before do
-      create :person, last_name: 'Adams'
+      tags.each do |tag|
+        person.tags << tag
+      end
+
+      person.save!
+
+      lawyer.tags << lawyer_tag
+      lawyer.save!
     end
 
     it 'they should see Adams' do
       visit people_path
       expect(page).to have_content 'Adams'
+    end
+
+    context 'when selecting consultants' do
+      it 'they should see Adams' do
+        visit people_path(tag_title: 'consultant')
+
+        expect(page).to have_content 'Adams'
+      end
+    end
+
+    context 'when selecting faculty' do
+      it 'they should see Adams' do
+        visit people_path(tag_title: 'faculty')
+
+        expect(page).to have_content 'Adams'
+      end
+    end
+
+    context 'when selecting some other tag' do
+      it 'they should not see Adams' do
+        visit people_path(tag_title: 'lawyer')
+
+        expect(page).not_to have_content 'Adams'
+      end
+
+      it 'they should see Douglas' do
+        visit people_path(tag_title: 'lawyer')
+
+        expect(page).to have_content 'Douglas'
+      end
     end
   end
 end
