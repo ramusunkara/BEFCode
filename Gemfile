@@ -4,6 +4,7 @@ gem 'rails', '4.0.0'
 
 gem 'capybara-webkit'
 gem 'coffee-rails', '~> 4.0.0'
+gem 'decent_exposure'
 gem 'haml-rails'
 gem 'jbuilder', '~> 1.2'
 gem 'jquery-rails'
