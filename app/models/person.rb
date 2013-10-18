@@ -2,6 +2,8 @@ class Person < ActiveRecord::Base
   has_many :roles
   has_many :tags, through: :roles
 
+  accepts_nested_attributes_for :roles
+
   validates :first_name, presence: true
   validates :last_name, presence: true
 

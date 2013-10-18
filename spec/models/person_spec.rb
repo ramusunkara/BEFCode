@@ -4,6 +4,8 @@ describe Person do
   it { should have_many(:roles) }
   it { should have_many(:tags).through(:roles) }
 
+  it { should accept_nested_attributes_for :roles }
+
   describe '#first_name' do
     it { should have_valid(:first_name).when 'x' }
     it { should_not have_valid(:first_name).when '', nil }
