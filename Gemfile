@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '4.0.0'
 
+gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'capybara-webkit'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'decent_exposure'
