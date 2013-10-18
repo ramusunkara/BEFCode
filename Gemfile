@@ -12,6 +12,7 @@ gem 'uglifier', '>= 1.3.0'
 
 group :test do
   gem 'shoulda-matchers'
+  gem 'valid_attribute'
 end
 
 group :development, :test do
