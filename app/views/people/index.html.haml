@@ -1,4 +1,9 @@
-= link_to 'Consultants', people_path(tag_title: 'consultant')
+.tags
+  = link_to 'All', people_path
+  = link_to 'Consultants', people_path(tag_title: 'consultant')
+  = link_to 'Lawyers', people_path(tag_title: 'lawyer')
 
-- people.each do |person|
-  = person.full_name
+.people
+  - people.each do |person|
+    .person
+      = person.full_name
