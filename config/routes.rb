@@ -1,4 +1,5 @@
 BEF::Application.routes.draw do
-  root 'welcome#index'
   resources :people
+
+  root 'welcome#index'
 end
