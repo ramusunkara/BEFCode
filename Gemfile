@@ -35,6 +35,7 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'jazz_hands'
   gem 'rspec-rails', '~> 2.0'
+  gem 'timecop'
 end
 
 group :doc do
