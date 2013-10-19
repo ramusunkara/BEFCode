@@ -1,7 +1,7 @@
 .tags
   = link_to 'All', people_path
-  = link_to 'Consultants', people_path(tag_title: 'consultant')
-  = link_to 'Lawyers', people_path(tag_title: 'lawyer')
+  - tags.each do |available_tag|
+    = link_to available_tag.title, people_path(tag_title: available_tag.title)
 
 .people
   - people.each do |person|
