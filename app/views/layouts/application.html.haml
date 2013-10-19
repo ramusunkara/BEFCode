@@ -1,0 +1,22 @@
+!!!
+%html
+  %head
+    %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1.0"}
+    %title= content_for?(:title) ? yield(:title) : "Badger Entrepreneurship Forum"
+    %meta{:content => content_for?(:description) ? yield(:description) : "The Badger Entrepreneurship Forum (BEF) is an organization of the University of Wisconsin Alumni in the San Francisco Bay Area interested in promoting and supporting the University and its alumni.", :name => "description"}
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    = stylesheet_link_tag :application, :media => "all"
+    = javascript_include_tag :application
+    = csrf_meta_tags
+    = yield(:head)
+  %body
+    = render 'shared/navbar'
+    #main{:role => "main"}
+      .container
+        .content
+          .row
+            .span12
+              = render 'shared/messages'
+              = yield
+          %footer
+            <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
