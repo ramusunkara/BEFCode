@@ -1,71 +1,56 @@
 require 'spec_helper'
 
-describe 'anonymous visitor' do
-  context 'when they visit the home page' do
-    it 'they should see "Badgers"' do
-      visit '/'
-      expect(page).to have_link 'Badgers'
-    end
+feature 'Anonymous visitors' do
+  scenario 'see a link to Badgers on the home page' do
+    visit '/'
 
-    it 'they should be able to navigate to the Badgers page' do
-      visit '/'
-      click_link 'Badgers'
-      expect(current_path).to eq '/people'
-    end
+    expect(page).to have_link 'Badgers'
+  end
+
+  scenario 'can click the Badgers link' do
+    visit '/'
+    click_link 'Badgers'
+
+    expect(current_path).to eq '/people'
   end
 
   context 'when they visit the Badgers page' do
-    let(:tag_titles) { %w(consultant faculty) }
-    let(:tags) do
-      tag_titles.map { |title| create :tag, title: title }
-    end
-    let(:lawyer_tag) { create :tag, title: 'lawyer' }
-    let(:person) { create :person, last_name: 'Adams' }
-    let(:lawyer) { create :person, last_name: 'Douglas' }
-
     before do
-      tags.each do |tag|
-        person.tags << tag
-      end
-
-      person.save!
-
-      lawyer.tags << lawyer_tag
-      lawyer.save!
+      create :person, :with_tags, last_name: 'Adams', tags: %w(Consultants Faculty)
+      create :person, :with_tags, last_name: 'Douglas', tags: %w(Lawyers)
     end
 
-    it 'they should see Adams' do
+    scenario 'they should see Adams and Douglas' do
       visit people_path
+
       expect(page).to have_content 'Adams'
+      expect(page).to have_content 'Douglas'
     end
 
-    context 'when selecting consultants' do
-      it 'they should see Adams' do
-        visit people_path(tag_title: 'consultant')
+    context 'and they select Consultants' do
+      scenario 'they should see Adams but not Douglas' do
+        visit people_path(tag_title: 'Consultants')
 
         expect(page).to have_content 'Adams'
+        expect(page).not_to have_content 'Douglas'
       end
     end
 
-    context 'when selecting faculty' do
-      it 'they should see Adams' do
-        visit people_path(tag_title: 'faculty')
+    context 'and they select Faculty' do
+      scenario 'they should see Adams but not Douglas' do
+        visit people_path(tag_title: 'Consultants')
 
         expect(page).to have_content 'Adams'
+        expect(page).not_to have_content 'Douglas'
       end
     end
 
-    context 'when selecting some other tag' do
-      it 'they should not see Adams' do
-        visit people_path(tag_title: 'lawyer')
-
-        expect(page).not_to have_content 'Adams'
-      end
-
-      it 'they should see Douglas' do
-        visit people_path(tag_title: 'lawyer')
+    context 'and they select Lawyers' do
+      scenario 'they should see Douglas but not Adams' do
+        visit people_path(tag_title: 'Lawyers')
 
         expect(page).to have_content 'Douglas'
+        expect(page).not_to have_content 'Adams'
       end
     end
   end
