@@ -20,7 +20,7 @@ feature 'Anonymous visitors' do
       create :person, :with_tags, last_name: 'Douglas', tags: %w(Lawyers)
     end
 
-    scenario 'they should see Adams and Douglas' do
+    scenario 'they see Adams and Douglas' do
       visit people_path
 
       expect(page).to have_content 'Adams'
@@ -28,7 +28,7 @@ feature 'Anonymous visitors' do
     end
 
     context 'and they select Consultants' do
-      scenario 'they should see Adams but not Douglas' do
+      scenario 'they see Adams but not Douglas' do
         visit people_path(tag_title: 'Consultants')
 
         expect(page).to have_content 'Adams'
@@ -37,7 +37,7 @@ feature 'Anonymous visitors' do
     end
 
     context 'and they select Faculty' do
-      scenario 'they should see Adams but not Douglas' do
+      scenario 'they see Adams but not Douglas' do
         visit people_path(tag_title: 'Consultants')
 
         expect(page).to have_content 'Adams'
@@ -46,7 +46,7 @@ feature 'Anonymous visitors' do
     end
 
     context 'and they select Lawyers' do
-      scenario 'they should see Douglas but not Adams' do
+      scenario 'they see Douglas but not Adams' do
         visit people_path(tag_title: 'Lawyers')
 
         expect(page).to have_content 'Douglas'
