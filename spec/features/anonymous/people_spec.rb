@@ -11,7 +11,7 @@ feature 'Anonymous visitors' do
     visit '/'
     click_link 'Badgers'
 
-    expect(current_path).to eq '/people'
+    expect(current_path).to eq people_path
   end
 
   context 'when they visit the Badgers page' do
