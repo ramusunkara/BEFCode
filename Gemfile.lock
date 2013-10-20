@@ -120,6 +120,7 @@ GEM
     has_scope (0.6.0.rc)
       actionpack (>= 3.2, < 5)
       activesupport (>= 3.2, < 5)
+    hashie (2.0.5)
     hike (1.2.3)
     hirb (0.7.1)
     i18n (0.6.5)
@@ -293,6 +294,7 @@ DEPENDENCIES
   draper
   factory_girl_rails
   haml-rails
+  hashie
   jazz_hands
   jbuilder (~> 1.2)
   jquery-rails
