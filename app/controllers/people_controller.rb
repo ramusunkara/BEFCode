@@ -9,5 +9,6 @@ class PeopleController < ApplicationController
   end
 
   def mentors
+    @mentors = Person.mentors.decorate
   end
 end

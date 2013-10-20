@@ -8,4 +8,5 @@ BEF::Application.routes.draw do
   root 'welcome#index'
   get 'contact', to: 'welcome#contact'
   get 'about', to: 'welcome#about'
+  get 'mentors', to: 'people#mentors'
 end

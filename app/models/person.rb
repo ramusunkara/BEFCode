@@ -9,6 +9,10 @@ class Person < ActiveRecord::Base
 
   default_scope { order(:last_name) }
 
+  def self.mentors
+    where(mentor: true)
+  end
+
   def self.for_tag_title(tag_title)
     return all unless tag_title.present?
 
