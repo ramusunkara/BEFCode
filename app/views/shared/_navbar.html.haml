@@ -1,7 +1,7 @@
 .navbar.navbar-fixed-top.navbar-inverse
   .container
     .navbar-header
-      %button.navbar-toggle{type: 'button', data: {toggle: 'collapse', target: 'navbar-collapse'}}
+      %button.navbar-toggle{type: 'button', data: {toggle: 'collapse', target: '.navbar-collapse'}}
         %span.icon-bar
         %span.icon-bar
         %span.icon-bar
@@ -11,7 +11,7 @@
         %li.active
           = link_to 'Home', root_path
         %li
-          = link_to 'About', '/about_us_path'
+          = link_to 'About', about_path
         %li
           = link_to 'Events', events_path
         %li
@@ -19,4 +19,4 @@
         %li
           = link_to 'Mentors', '/mentors'
         %li
-          = link_to 'Contact', 'contact_us_path'
+          = link_to 'Contact', contact_path
