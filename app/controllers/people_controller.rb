@@ -7,4 +7,7 @@ class PeopleController < ApplicationController
 
   def index
   end
+
+  def mentors
+  end
 end
