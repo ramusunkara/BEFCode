@@ -27,6 +27,17 @@ BEF::Application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-  # TODO: Utilize Settings, do for all environments
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  ###
+  # Setup default routing information
+  #
+  config.action_mailer.default_url_options = {
+    host: Settings::CONFIG.host,
+    port: Settings::CONFIG.port,
+    protocol: Settings::CONFIG.protocol
+  }
+
+  config.action_dispatch.default_url_options = {
+    host: Settings::CONFIG.host,
+    port: Settings::CONFIG.port
+  }
 end

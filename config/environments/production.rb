@@ -77,4 +77,18 @@ BEF::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
+
+  ###
+  # Setup default routing information
+  #
+  config.action_mailer.default_url_options = {
+    host: Settings::CONFIG.host,
+    port: Settings::CONFIG.port,
+    protocol: Settings::CONFIG.protocol
+  }
+
+  config.action_dispatch.default_url_options = {
+    host: Settings::CONFIG.host,
+    port: Settings::CONFIG.port
+  }
 end
