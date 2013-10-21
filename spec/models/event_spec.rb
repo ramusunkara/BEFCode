@@ -15,12 +15,10 @@ describe Event do
   end
 
   describe '.published' do
-    before { Timecop.freeze(Time.utc(2013, 10, 19, 13, 21, 33)) }
-
-    it 'filters events where publish_at is present and in the past' do
+    it 'filters events where published is true' do
       sql = Event.published.to_sql
-
-      expect(sql).to include %q(WHERE (publish_at is not null and publish_at <= '2013-10-19 13:21:33.000000'))
+      # Failing. Does the test still make sense?
+      expect(sql).to include %q(WHERE (published = 't'))
     end
   end
 end

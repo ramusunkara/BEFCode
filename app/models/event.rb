@@ -5,6 +5,6 @@ class Event < ActiveRecord::Base
   default_scope { order('events.starts_at desc') }
 
   def self.published
-    where('publish_at is not null and publish_at <= ?', Time.now)
+    where(published: true)
   end
 end
