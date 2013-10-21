@@ -9,6 +9,16 @@ class Person < ActiveRecord::Base
 
   default_scope { order(:last_name) }
 
+  def self.for_linkedin_url(url)
+    profile = Linkedin::Profile.get_profile(url)
+    if profile
+      new first_name: profile.first_name,
+        last_name: profile.last_name,
+        title: profile.title,
+        organization: profile.current_companies[0][:company]
+    end
+  end
+
   def self.mentors
     where(mentor: true)
   end

@@ -36,10 +36,47 @@ describe Person do
     end
   end
 
-  describe '#default_scope' do
+  describe '.default_scope' do
     it 'orders by last_name' do
       sql = Person.all.to_sql
       expect(sql).to include %q(ORDER BY "people".last_name ASC)
+    end
+  end
+
+  describe '.for_linkedin_url' do
+    let(:person) { Person.for_linkedin_url(url) }
+
+    context 'when it fails to find profile' do
+      let(:url) { "http://linkedin.com/in/notarealprofile" }
+
+      it 'is null' do
+        expect(person).to be_nil
+      end
+    end
+
+    context 'when it successfully finds profile' do
+      let(:url) { "http://linkedin.com/in/philipcrawford" }
+
+      it 'is a person' do
+        expect(person).to be_a(Person)
+      end
+
+      it 'has a first name' do
+        expect(person.first_name).to eq 'Philip'
+      end
+
+      it 'has a last name' do
+        expect(person.last_name).to eq 'Crawford'
+      end
+
+      it 'has a title name' do
+        expect(person.title).to eq 'Founder at Steven H. Allen'
+      end
+
+      it 'has a organization name' do
+        expect(person.organization).to eq 'Steven H. Allen'
+      end
+
     end
   end
 end
