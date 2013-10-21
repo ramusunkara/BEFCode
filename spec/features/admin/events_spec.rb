@@ -12,11 +12,7 @@ feature 'Admin users' do
 
     fill_in 'Title', with: 'Event Title'
 
-    within '#event_starts_at_input' do
-      select '2014', from: 'Year'
-      select 'January', from: 'Month'
-      select '1', from: 'Day'
-    end
+    fill_in 'event[starts_at_date]', with: '2014-1-1'
 
     click_link_or_button 'Create Event'
 

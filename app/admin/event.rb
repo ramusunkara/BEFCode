@@ -7,6 +7,15 @@ ActiveAdmin.register Event do
       f.input :description
       f.input :venue_name
       f.input :venue_street_address
+      f.input :venue_city
+      f.input :venue_state
+      f.input :venue_zip
+      f.input :venue_zip
+      f.input :host_name
+      f.input :photo_album_url
+      f.input :rsvp_url
+      f.input :published
+
     end
 
     f.actions
