@@ -12,3 +12,8 @@
  *= require_tree ./application
  */
 body { padding-top: 60px; }
+/* The name is so long it doesn't collapse properly for mobile */
+.navbar-brand {
+  padding: 15px 10px 15px 5px;
+  font-size: 17px;
+}
