@@ -5,6 +5,7 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 
 gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'active_admin_editor'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'decent_exposure'
 gem 'devise'
