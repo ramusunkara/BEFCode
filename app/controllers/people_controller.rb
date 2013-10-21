@@ -4,11 +4,11 @@ class PeopleController < ApplicationController
   expose(:tags) { Tag.all.decorate }
   expose(:tag_title) { params[:tag_title] }
   expose(:people) { Person.for_tag_title(tag_title).decorate }
+  expose(:badger_mentors) { Person.mentors.decorate }
 
   def index
   end
 
   def mentors
-    @mentors = Person.mentors.decorate
   end
 end
