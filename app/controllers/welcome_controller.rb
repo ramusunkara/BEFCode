@@ -1,4 +1,6 @@
 class WelcomeController < ApplicationController
+  expose(:board_members) { Person.mentors.decorate }
+
   def index
   end
 

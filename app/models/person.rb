@@ -23,6 +23,10 @@ class Person < ActiveRecord::Base
     where(mentor: true)
   end
 
+  def self.board_members
+    where(board_member: true)
+  end
+
   def self.for_tag_title(tag_title)
     return all unless tag_title.present?
 
