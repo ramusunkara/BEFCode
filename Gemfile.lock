@@ -153,6 +153,9 @@ GEM
     jquery-ui-rails (4.0.5)
       railties (>= 3.1.0)
     json (1.8.1)
+    just-datetime-picker (0.0.6)
+      activeadmin (>= 0.4.4)
+      formtastic (>= 2.0.0)
     kaminari (0.14.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
@@ -320,6 +323,7 @@ DEPENDENCIES
   jazz_hands
   jbuilder (~> 1.2)
   jquery-rails
+  just-datetime-picker
   linkedin-scraper
   pg
   rails (= 4.0.0)

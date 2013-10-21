@@ -15,3 +15,21 @@
 // For example, to change the default status-tag color:
 //
 //   .status_tag { background: #6090DB; }
+
+/* This is for the datetime picker */
+
+body.active_admin .input.just_datetime_picker input.just-datetime-picker-field {
+  width: auto !important;
+}
+
+body.active_admin .input.just_datetime_picker input.just-datetime-picker-date {
+  margin-right: 2ex;
+}
+
+body.active_admin .input.just_datetime_picker input.just-datetime-picker-time-hour {
+  margin-right: 1ex;
+}
+
+body.active_admin .input.just_datetime_picker input.just-datetime-picker-time-minute {
+  margin-left: 1ex;
+}
