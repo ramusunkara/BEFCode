@@ -17,8 +17,7 @@ describe Event do
   describe '.published' do
     it 'filters events where published is true' do
       sql = Event.published.to_sql
-      # Failing. Does the test still make sense?
-      expect(sql).to include %q(WHERE (published = 't'))
+      expect(sql).to include %q(WHERE "events"."published" = 't')
     end
   end
 end
