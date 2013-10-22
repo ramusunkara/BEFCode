@@ -1,7 +1,7 @@
 class Event < ActiveRecord::Base
   just_define_datetime_picker :starts_at
 
-  validates :starts_at, timeliness: true
+  validates :starts_at, presence: true
   validates :title, presence: true
 
   has_attached_file :photo, styles: { large: '600x400#', medium: '300x200#', thumb: '100x66#' }
