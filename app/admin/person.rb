@@ -1,4 +1,19 @@
 ActiveAdmin.register Person do
+  member_action :update_from_linked_in, method: :post do
+    person = Person.find(params[:id])
+    if person.update_from_linkedin
+      flash[:notice] = "Updated from LinkedIn"
+    else
+      flash[:alert] = "Error updating from LinkedIn"
+    end
+
+    redirect_to admin_person_path(person)
+  end
+
+  action_item only: [:show, :edit] do
+    link_to('Update from LinkedIn', update_from_linked_in_admin_person_path(resource), method: :post)
+  end
+
   form do |f|
     f.inputs 'Details' do
       f.input :first_name
