@@ -4,6 +4,9 @@ class Event < ActiveRecord::Base
   validates :starts_at, timeliness: true
   validates :title, presence: true
 
+  has_attached_file :photo,
+    styles: { medium: "300x300>", thumb: "100x100>" }
+
   default_scope { order('events.starts_at desc') }
 
   def self.published
