@@ -5,7 +5,17 @@ class Event < ActiveRecord::Base
   validates :title, presence: true
 
   has_attached_file :photo,
-    styles: { medium: "300x300>", thumb: "100x100>" }
+    styles: {
+      medium: "300x300>",
+      thumb: "100x100>"
+    },
+    s3_credentials: {
+      access_key_id: Settings::CONFIG.s3.access_key_id,
+      secret_access_key: Settings::CONFIG.s3.secret_access_key
+    },
+    bucket: Settings::CONFIG.s3.bucket,
+    storage: 's3',
+    path: ":class/:attachment/:id/:style.:extension"
 
   default_scope { order('events.starts_at desc') }
 

@@ -2,18 +2,26 @@ development:
   host: localhost
   port: 3000
   protocol: http
+  s3:
+    bucket: bef-development
 
 test:
   host: localhost
   port: 9887
   protocol: http
+  s3:
+    bucket: bef-test
 
 staging:
   host: bef-stage.herokuapp.com
   port:
   protocol: http
+  s3:
+    bucket: bef-staging
 
 production:
   host: siliconvalleybadgers.com
   port:
   protocol: http
+  s3:
+    bucket: bef
