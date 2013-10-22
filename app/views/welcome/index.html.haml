@@ -1,1 +1,8 @@
 %h1 Welcome!
+- if upcoming_events.present?
+  %h2 Upcoming Events
+  - upcoming_events.each do |event|
+    = render partial: 'events/event', locals: {event: event}
+%h2 Past Events
+- past_events.each do |event|
+  = render partial: 'events/event', locals: {event: event}

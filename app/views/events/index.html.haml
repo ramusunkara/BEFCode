@@ -1,12 +1,4 @@
 .events
-  - events.each do |event|
-    %h2= event.title
-    %p
-      %b= event.starts_at
-    = event.description.html_safe if event.description.present?
-    - if event.venue_street_address.present?
-      = link_to event.venue_name, "https://maps.google.com/maps?q=#{event.full_address}"
-    - if event != events.last
-      %hr
+  = render events
 
 
