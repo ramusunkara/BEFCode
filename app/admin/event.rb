@@ -10,7 +10,6 @@ ActiveAdmin.register Event do
       f.input :venue_city
       f.input :venue_state
       f.input :venue_zip
-      f.input :venue_zip
       f.input :host_name
       f.input :photo_album_url
       f.input :rsvp_url
