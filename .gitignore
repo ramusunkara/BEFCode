@@ -4,5 +4,6 @@
 /tmp
 .DS_Store
 
-/config/credentials*.yml
+/config/credentials-development.yml
+/config/credentials-test.yml
 !/config/credentials-example.yml
