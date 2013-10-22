@@ -33,6 +33,7 @@ module Settings
 
   def load_environment
     memo = {}
+    # TODO: Make this recursive.
     CONFIG.each_with_object(memo) do |kv, memo|
       k, v = kv
       next unless v.is_a?(Hash) && v.environment.present?
