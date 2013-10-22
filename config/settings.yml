@@ -4,6 +4,10 @@ development:
   protocol: http
   s3:
     bucket: bef-development
+    access_key_id:
+      environment: S3_ACCESS_KEY_ID
+    secret_access_key:
+      environment: S3_SECRET_ACCESS_KEY
 
 test:
   host: localhost
@@ -18,6 +22,10 @@ staging:
   protocol: http
   s3:
     bucket: bef-staging
+    access_key_id:
+      environment: S3_ACCESS_KEY_ID
+    secret_access_key:
+      environment: S3_SECRET_ACCESS_KEY
 
 production:
   host: siliconvalleybadgers.com
@@ -25,3 +33,7 @@ production:
   protocol: http
   s3:
     bucket: bef
+    access_key_id:
+      environment: S3_ACCESS_KEY_ID
+    secret_access_key:
+      environment: S3_SECRET_ACCESS_KEY

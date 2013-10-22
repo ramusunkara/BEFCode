@@ -31,22 +31,20 @@ module Settings
     end
   end
 
-  def load_environment
-    memo = {}
-    # TODO: Make this recursive.
-    CONFIG.each_with_object(memo) do |kv, memo|
-      k, v = kv
-      next unless v.is_a?(Hash) && v.environment.present?
+  def update_hash_values_from_environment!(hash)
+    hash.each_pair do |key, value|
+      next unless value.is_a?(Hash)
 
-      replacement = ENV[v.environment]
-      if replacement.present?
-        memo[k] = replacement
+      if value.environment.present? && ENV[value.environment].present?
+        hash[key] = ENV[value.environment]
       else
-        raise "Missing environment variable #{v.environment}"
+        update_hash_values_from_environment!(value)
       end
     end
+  end
 
-    CONFIG.deep_merge!(memo)
+  def load_environment
+    update_hash_values_from_environment!(CONFIG)
   end
 
   def load_settings
@@ -54,6 +52,8 @@ module Settings
     load_sources
     load_environment
   end
+
+  module_function :update_hash_values_from_environment!
 
   module_function :load_namespaced_sources
   module_function :load_sources
