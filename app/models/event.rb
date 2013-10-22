@@ -8,4 +8,12 @@ class Event < ActiveRecord::Base
   def self.published
     where(published: true)
   end
+
+  def self.past_events
+    published.where('starts_at is not null and starts_at <= ?', Time.now)
+  end
+
+  def self.upcoming_events
+    published.where('starts_at is not null and starts_at >= ?', Time.now).order('events.starts_at asc')
+  end
 end
