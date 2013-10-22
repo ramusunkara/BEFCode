@@ -14,6 +14,7 @@ class Event < ActiveRecord::Base
       secret_access_key: Settings::CONFIG.s3_secret_access_key
     },
     bucket: Settings::CONFIG.s3.bucket,
+    url: ':s3_domain_url',
     storage: 's3',
     path: ":class/:attachment/:id/:style.:extension"
 
