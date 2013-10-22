@@ -15,7 +15,6 @@ ActiveAdmin.register Event do
       f.input :photo_album_url
       f.input :rsvp_url
       f.input :published
-
     end
 
     f.actions
