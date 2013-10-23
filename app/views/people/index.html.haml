@@ -5,5 +5,11 @@
 
 .people
   - people.each do |person|
-    .person
-      = person.full_name
+    .person{style: 'display:inline-block; border: 1px solid #ddd;'}
+      .image{style: 'display:inline-block;'}
+        = image_tag person.photo.url(:thumb)
+      .details{style: 'display:inline-block;'}
+        %p
+          %b= person.full_name
+        %p= person.title
+        %p= person.organization

@@ -21,6 +21,7 @@ ActiveAdmin.register Person do
       f.input :title
       f.input :organization
       f.input :linkedin_url
+      f.input :photo
       f.input :mentor
       f.input :board_member
     end
