@@ -3,7 +3,7 @@
   name: Cameron Ackbury
   title: GM
   company: Mindjet
-  image: ../badgers/BadgerPictures/Cameron_Ackbury.jpg
+  photo: ../badgers/BadgerPictures/Cameron_Ackbury.jpg
   linkedin_url: http://www.linkedin.com/in/cameronackbury
   tags:
   - Executives
@@ -11,14 +11,14 @@
   name: Rakesh Agrawal
   title: Technical Fellow
   company: Microsoft
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Mateen Aini
   title: Founder/COO
   company: Songwhale
-  image: ../badgers/BadgerPictures/Mateen_Aini.jpg
+  photo: ../badgers/BadgerPictures/Mateen_Aini.jpg
   linkedin_url: http://www.linkedin.com/in/mateenaini
   tags:
   - Entrepreneurs
@@ -26,7 +26,7 @@
   name: Byron Alsberg
   title: Founder/CDO
   company: Naratte
-  image: ../badgers/BadgerPictures/Byron_Alsberg.jpg
+  photo: ../badgers/BadgerPictures/Byron_Alsberg.jpg
   linkedin_url: http://www.linkedin.com/pub/byron-alsberg/8/832/a34
   tags:
   - Entrepreneurs
@@ -34,7 +34,7 @@
   name: Anjali Anagol-Subbarao
   title: Chief Architect
   company: Hewlett Packard
-  image: ../badgers/BadgerPictures/Anjali_Anagol-Subbarao.jpg
+  photo: ../badgers/BadgerPictures/Anjali_Anagol-Subbarao.jpg
   linkedin_url: http://www.linkedin.com/pub/anjali-anagol-subbarao/1/70/4a7
   tags:
   - Executives
@@ -42,7 +42,7 @@
   name: Shabbir Anik
   title: Chairman
   company: Valgenesis
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/shabbir-anik/2/a37/995
   tags:
   - Executives
@@ -50,7 +50,7 @@
   name: Carolyn Arndt
   title: Program Director
   company: J&J
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/carolyn-arndt/1/a4b/219
   tags:
   - Executives
@@ -58,14 +58,14 @@
   name: Inna Ashtamenko
   title: SVP
   company: Marsh
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Kaihan Ashtiani
   title: VP/GM
   company: Novellus Systems
-  image: ../badgers/BadgerPictures/Kaihan_Ashtiani.jpg
+  photo: ../badgers/BadgerPictures/Kaihan_Ashtiani.jpg
   linkedin_url: http://www.linkedin.com/in/kaihanashtiani
   tags:
   - Executives
@@ -73,7 +73,7 @@
   name: Adam Au
   title: VP Engineering
   company: Centrify
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/adam-au/0/107/522
   tags:
   - Executives
@@ -81,7 +81,7 @@
   name: Suhas Badve
   title: VP
   company: Hewlett Packard
-  image: ../badgers/BadgerPictures/Suhas_Badve.jpg
+  photo: ../badgers/BadgerPictures/Suhas_Badve.jpg
   linkedin_url: http://www.linkedin.com/in/suhasbadve
   tags:
   - Executives
@@ -89,7 +89,7 @@
   name: Anne Banta
   title: President
   company: Strategic Creative Comm.
-  image: ../badgers/BadgerPictures/Anne_Banta.jpg
+  photo: ../badgers/BadgerPictures/Anne_Banta.jpg
   linkedin_url: http://www.linkedin.com/in/annebanta
   tags:
   - Consultants
@@ -97,7 +97,7 @@
   name: Gary Banta
   title: Managing Director
   company: ClearSpot Energy
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/gary-banta/0/42/692
   tags:
   - Entrepreneurs
@@ -105,14 +105,14 @@
   name: Carol Bartz
   title: Ex-CEO
   company: Autodesk; Yahoo
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Rajiv Batra
   title: Founder/VP Engineering
   company: Palo Alto Networks
-  image: ../badgers/BadgerPictures/Rajiv_Batra.jpg
+  photo: ../badgers/BadgerPictures/Rajiv_Batra.jpg
   linkedin_url: http://www.linkedin.com/pub/rajiv-batra/8/252/95b
   tags:
   - Entrepreneurs
@@ -120,7 +120,7 @@
   name: Dave Beckwith
   title: Principal
   company: Beckwith Consulting
-  image: ../badgers/BadgerPictures/Dave_Beckwith.jpg
+  photo: ../badgers/BadgerPictures/Dave_Beckwith.jpg
   linkedin_url: http://www.linkedin.com/pub/dave-beckwith/0/615/477
   tags:
   - Consultants
@@ -128,7 +128,7 @@
   name: Steve Behrens
   title: VP
   company: Proficio
-  image: ../badgers/BadgerPictures/Steve_Behrens.jpg
+  photo: ../badgers/BadgerPictures/Steve_Behrens.jpg
   linkedin_url: http://www.linkedin.com/in/stevenbehrens
   tags:
   - Executives
@@ -136,21 +136,21 @@
   name: Steve Bennett
   title: Advisor
   company: ex-CEO Intuit
-  image: ../badgers/BadgerPictures/Steve_Bennett.jpg
+  photo: ../badgers/BadgerPictures/Steve_Bennett.jpg
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Jim Berbee
   title: Founder/Chairman
   company: Berbee Information
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Entrepreneurs
 - !ruby/hash:Hashie::Mash
   name: Neil Berkman
   title: Founder/CEO
   company: LivePress
-  image: ../badgers/BadgerPictures/Neil_Berkman.jpg
+  photo: ../badgers/BadgerPictures/Neil_Berkman.jpg
   linkedin_url: http://www.linkedin.com/in/neilberkman
   tags:
   - Entrepreneurs
@@ -158,7 +158,7 @@
   name: Doug Bettinger
   title: CFO
   company: Avago Technologies
-  image: ../badgers/BadgerPictures/Doug_Bettinger.jpg
+  photo: ../badgers/BadgerPictures/Doug_Bettinger.jpg
   linkedin_url: http://www.linkedin.com/pub/doug-bettinger/0/773/531
   tags:
   - Executives
@@ -166,7 +166,7 @@
   name: Roxanne Beverstein
   title: Founder/VP Sales
   company: C4media
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/roxanne-beverstein/1/bbb/71
   tags:
   - Entrepreneurs
@@ -174,7 +174,7 @@
   name: Sanjeev Bhalla
   title: CEO
   company: Strumsoft
-  image: ../badgers/BadgerPictures/Sanjeev_Bhalla.jpg
+  photo: ../badgers/BadgerPictures/Sanjeev_Bhalla.jpg
   linkedin_url: http://www.linkedin.com/pub/sanjeev-bhalla/1/459/a73
   tags:
   - Executives
@@ -182,7 +182,7 @@
   name: Anupam Bhide
   title: CEO
   company: CalSoft
-  image: ../badgers/BadgerPictures/Anupam_Bhide.jpg
+  photo: ../badgers/BadgerPictures/Anupam_Bhide.jpg
   linkedin_url: http://www.linkedin.com/in/anupambhide
   tags:
   - Entrepreneurs
@@ -190,7 +190,7 @@
   name: Tom Biskobing
   title: Partner
   company: Levy & Biskobing
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/tom-biskobing/6/203/878
   tags:
   - Lawyers
@@ -198,7 +198,7 @@
   name: Dina Bitton
   title: Board Member
   company: ELS Marketing
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/dina-bitton/0/39/492
   tags:
   - Entrepreneurs
@@ -206,14 +206,14 @@
   name: Erik Bower
   title: Founder/CEO
   company: Marketbright
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Entrepreneurs
 - !ruby/hash:Hashie::Mash
   name: Mark Brandemuehl
   title: CMO
   company: Movoto
-  image: ../badgers/BadgerPictures/Mark_Brandemuehl.jpg
+  photo: ../badgers/BadgerPictures/Mark_Brandemuehl.jpg
   linkedin_url: http://www.linkedin.com/in/markbrandemuehl
   tags:
   - Executives
@@ -221,7 +221,7 @@
   name: Steve Bratman
   title: Sales Executive
   company: ex-VP Synaptic Digital
-  image: ../badgers/BadgerPictures/Steve_Bratman.jpg
+  photo: ../badgers/BadgerPictures/Steve_Bratman.jpg
   linkedin_url: http://www.linkedin.com/in/sbratman
   tags:
   - Executives
@@ -229,7 +229,7 @@
   name: James Breitenstein
   title: Founder/CEO
   company: Landsmith
-  image: ../badgers/BadgerPictures/James_Breitenstein.jpg
+  photo: ../badgers/BadgerPictures/James_Breitenstein.jpg
   linkedin_url: http://www.linkedin.com/in/landsmithceo
   tags:
   - Investment Bankers
@@ -237,7 +237,7 @@
   name: Carolyn Brenner
   title: Director  Bus Dev
   company: Lateral Link
-  image: ../badgers/BadgerPictures/Carolyn_Brenner.jpg
+  photo: ../badgers/BadgerPictures/Carolyn_Brenner.jpg
   linkedin_url: http://www.linkedin.com/in/cabrenner
   tags:
   - Lawyers
@@ -245,7 +245,7 @@
   name: Kurt Brown
   title: Director R&D
   company: Greenplum
-  image: ../badgers/BadgerPictures/Kurt_Brown.jpg
+  photo: ../badgers/BadgerPictures/Kurt_Brown.jpg
   linkedin_url: http://www.linkedin.com/in/kpbrown
   tags:
   - Entrepreneurs
@@ -253,7 +253,7 @@
   name: Sarah Browne
   title: Founder
   company: Guru of New
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/guruofnew
   tags:
   - Entrepreneurs
@@ -261,7 +261,7 @@
   name: David Bunzel
   title: Managing Director
   company: Santa Clara Consulting Group
-  image: ../badgers/BadgerPictures/David_Bunzel.jpg
+  photo: ../badgers/BadgerPictures/David_Bunzel.jpg
   linkedin_url: http://www.linkedin.com/in/davidbunzel
   tags:
   - Consultants
@@ -269,14 +269,14 @@
   name: Steven Burrill
   title: CEO
   company: Burrill & Company
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Investors
 - !ruby/hash:Hashie::Mash
   name: Hamid Butt
   title: VP Engineering
   company: Leapfrog
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/hamid-h-butt/2/57/467
   tags:
   - Executives
@@ -284,7 +284,7 @@
   name: Steve Chan
   title: VP Engineering
   company: Branchit
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/steve-chan/0/10/8b9
   tags:
   - Entrepreneurs
@@ -292,7 +292,7 @@
   name: Sashikanth Chandrasekaran
   title: Architect
   company: Google
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/sashikanth-chandrasekaran/0/985/51b
   tags:
   - Entrepreneurs
@@ -300,7 +300,7 @@
   name: Alec Chang
   title: Partner
   company: Skadden Arps
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/alec-chang/2/b35/8b6
   tags:
   - Lawyers
@@ -308,7 +308,7 @@
   name: Sanjeev Chitre
   title: Managing Partner
   company: The U Group
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/sanjeev-chitre/4/7b7/a86
   tags:
   - Investment Bankers
@@ -316,7 +316,7 @@
   name: Mehmet Cirit
   title: President
   company: Library Technologies
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/mehmetcirit
   tags:
   - Executives
@@ -324,7 +324,7 @@
   name: Robert Claassen
   title: Partner
   company: Paul Hastings
-  image: ../badgers/BadgerPictures/Robert_Claassen.jpg
+  photo: ../badgers/BadgerPictures/Robert_Claassen.jpg
   linkedin_url: http://www.linkedin.com/pub/robert-claassen/0/704/711
   tags:
   - Lawyers
@@ -332,7 +332,7 @@
   name: Meaghan Clawsie
   title: Founder
   company: Smartycake
-  image: ../badgers/BadgerPictures/Meaghan_Clawsie.jpg
+  photo: ../badgers/BadgerPictures/Meaghan_Clawsie.jpg
   linkedin_url: http://www.linkedin.com/in/meaghanclawsie
   tags:
   - Entrepreneurs
@@ -340,7 +340,7 @@
   name: William Corman
   title: Owner
   company: Bogatin  Corman & Gold
-  image: ../badgers/BadgerPictures/William_Corman.jpg
+  photo: ../badgers/BadgerPictures/William_Corman.jpg
   linkedin_url: http://www.linkedin.com/pub/william-corman/5/509/264
   tags:
   - Lawyers
@@ -348,7 +348,7 @@
   name: David Dannert
   title: President
   company: Dannert Group
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/daviddannert
   tags:
   - Consultants
@@ -356,7 +356,7 @@
   name: Joseph DeLuca
   title: Knowledge Architect
   company: Fulcrum Methods
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/joseph-deluca/11/299/108
   tags:
   - Investors
@@ -364,7 +364,7 @@
   name: Neng Bing Doh
   title: Founder
   company: Healthcrowd
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/nbdoh
   tags:
   - Entrepreneurs
@@ -372,7 +372,7 @@
   name: Nitin Donde
   title: EVP Engineering
   company: Aster Data Systems
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/nitin-donde/0/4a4/15b
   tags:
   - Executives
@@ -380,7 +380,7 @@
   name: Zhi-feng Dong
   title: Founder/CEO
   company: Flowell Technology
-  image: ../badgers/BadgerPictures/Zhi-feng_Dong.jpg
+  photo: ../badgers/BadgerPictures/Zhi-feng_Dong.jpg
   linkedin_url: http://www.linkedin.com/pub/zhi-feng-dong/1/33a/530
   tags:
   - Entrepreneurs
@@ -388,7 +388,7 @@
   name: Tim Drasler
   title: SVP Alliances
   company: Entiera
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/tim-drasler/2/96b/2b1
   tags:
   - Executives
@@ -396,7 +396,7 @@
   name: Dianne DuBois
   title: Principal
   company: Maple Street Associates
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/dianne-dubois/7/509/176
   tags:
   - Consultants
@@ -404,7 +404,7 @@
   name: Ryan Dulon
   title: Law Firm Consultant
   company: Westlaw
-  image: ../badgers/BadgerPictures/Ryan_Dulon.jpg
+  photo: ../badgers/BadgerPictures/Ryan_Dulon.jpg
   linkedin_url: http://www.linkedin.com/pub/ryan-dulon/3/699/129
   tags:
   - Consultants
@@ -412,7 +412,7 @@
   name: Bowen Dwelle
   title: Founder/CEO
   company: AdMonsters
-  image: ../badgers/BadgerPictures/Bowen_Dwelle.jpg
+  photo: ../badgers/BadgerPictures/Bowen_Dwelle.jpg
   linkedin_url: http://www.linkedin.com/in/bdwelle
   tags:
   - Entrepreneurs
@@ -420,7 +420,7 @@
   name: Marsha Eddleman
   title: Executive Director
   company: San Mateo Library Foundation
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/marsha-eddleman/7/78/40b
   tags:
   - Executives
@@ -428,7 +428,7 @@
   name: David Epstein
   title: Managing Director
   company: Med-SV Cleantech Fund
-  image: ../badgers/BadgerPictures/David_Epstein.jpg
+  photo: ../badgers/BadgerPictures/David_Epstein.jpg
   linkedin_url: http://www.linkedin.com/pub/david-epstein/3/a63/482
   tags:
   - Investors
@@ -436,7 +436,7 @@
   name: Dimitris Fotakis
   title: Founder/CEO
   company: Nefelus
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/dimitris-fotakis/0/111/808
   tags:
   - Entrepreneurs
@@ -444,7 +444,7 @@
   name: Chuck Fox
   title: VP Sales
   company: Global Foundries
-  image: ../badgers/BadgerPictures/Chuck_Fox.jpg
+  photo: ../badgers/BadgerPictures/Chuck_Fox.jpg
   linkedin_url: http://www.linkedin.com/in/thefox
   tags:
   - Executives
@@ -452,7 +452,7 @@
   name: Victor Fracaro
   title: Partner
   company: Racebrook Capital
-  image: ../badgers/BadgerPictures/Victor_Fracaro.jpg
+  photo: ../badgers/BadgerPictures/Victor_Fracaro.jpg
   linkedin_url: http://www.linkedin.com/pub/victor-r-fracaro/8/922/663
   tags:
   - Investors
@@ -460,7 +460,7 @@
   name: Michael Franklin
   title: Founder/CTO
   company: Truviso
-  image: ../badgers/BadgerPictures/Michael_Franklin.jpg
+  photo: ../badgers/BadgerPictures/Michael_Franklin.jpg
   linkedin_url: http://www.linkedin.com/in/mjfranklin
   tags:
   - Entrepreneurs
@@ -468,7 +468,7 @@
   name: Carl Fricke
   title: Advisor
   company: Acuity Ventures
-  image: ../badgers/BadgerPictures/Carl_Fricke.jpg
+  photo: ../badgers/BadgerPictures/Carl_Fricke.jpg
   linkedin_url: http://www.linkedin.com/in/carlfricke
   tags:
   - Investors
@@ -476,7 +476,7 @@
   name: Bill Fuller
   title: Director R&D
   company: Quest Software
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/bill-fuller/0/740/7b0
   tags:
   - Executives
@@ -484,7 +484,7 @@
   name: Yu-Shan Fung
   title: Founder/Architect
   company: Discoverio
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/dimensionless
   tags:
   - Entrepreneurs
@@ -492,7 +492,7 @@
   name: Gregory Gallo
   title: Partner
   company: DLA Piper
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/gregory-gallo/0/693/200
   tags:
   - Lawyers
@@ -500,7 +500,7 @@
   name: Brett Gardner
   title: CMO
   company: NetSeer
-  image: ../badgers/BadgerPictures/Brett_Gardner.jpg
+  photo: ../badgers/BadgerPictures/Brett_Gardner.jpg
   linkedin_url: http://www.linkedin.com/in/bgardner
   tags:
   - Executives
@@ -508,7 +508,7 @@
   name: Vikas Garg
   title: VP Technology
   company: Aryaka Networks
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/vikas-garg/4/163/4a8
   tags:
   - Executives
@@ -516,7 +516,7 @@
   name: Christine Garofoli
   title: Consultant
   company: Garofoli Consulting
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/cgarofoli
   tags:
   - Consultants
@@ -524,7 +524,7 @@
   name: Jessica Gelin
   title: Sales Consultant
   company: Krueger
-  image: ../badgers/BadgerPictures/Jessica_Gelin.jpg
+  photo: ../badgers/BadgerPictures/Jessica_Gelin.jpg
   linkedin_url: http://www.linkedin.com/pub/jessica-gelin/2/a58/286
   tags:
   - Executives
@@ -532,14 +532,14 @@
   name: Gina Gencarelli
   title: Associate
   company: Wilson Sonsini
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Lawyers
 - !ruby/hash:Hashie::Mash
   name: Mariya Genzel
   title: Founder/CTO
   company: Saygent
-  image: ../badgers/BadgerPictures/Mariya_Genzel.jpg
+  photo: ../badgers/BadgerPictures/Mariya_Genzel.jpg
   linkedin_url: http://www.linkedin.com/in/mgenzel
   tags:
   - Entrepreneurs
@@ -547,7 +547,7 @@
   name: Wens Gerdyman
   title: Founder
   company: Fit To Market
-  image: ../badgers/BadgerPictures/Wens_Gerdyman.jpg
+  photo: ../badgers/BadgerPictures/Wens_Gerdyman.jpg
   linkedin_url: http://www.linkedin.com/in/gerdyman
   tags:
   - Consultants
@@ -555,7 +555,7 @@
   name: Abhinav Gupta
   title: Founder/VP Engineering
   company: Rocket Fuel
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/abhinav-gupta/0/77a/b19
   tags:
   - Entrepreneurs
@@ -563,7 +563,7 @@
   name: Parveen Gupta
   title: President
   company: Creative Solutions Network
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/parveen-gupta/3/246/ba1
   tags:
   - Executives
@@ -571,7 +571,7 @@
   name: Ramesh Gupta
   title: SVP Development
   company: McAfee
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/ramesh-gupta/0/895/5a5
   tags:
   - Executives
@@ -579,7 +579,7 @@
   name: Saar Gur
   title: General Partner
   company: Charles River Ventures
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/saargur
   tags:
   - Investors
@@ -587,7 +587,7 @@
   name: Andy Haines
   title: VP Marketing
   company: Synfora
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/andyhaines
   tags:
   - Executives
@@ -595,7 +595,7 @@
   name: Keyvan Hajiani
   title: Founder
   company: Proof Social
-  image: ../badgers/BadgerPictures/Keyvan_Hajiani.jpg
+  photo: ../badgers/BadgerPictures/Keyvan_Hajiani.jpg
   linkedin_url: http://www.linkedin.com/pub/keyvan-hajiani/5/27a/49b
   tags:
   - Entrepreneurs
@@ -603,7 +603,7 @@
   name: John Hale
   title: Partner
   company: Cooley
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/john-hale/b/158/770
   tags:
   - Lawyers
@@ -611,7 +611,7 @@
   name: Jonas Halpren
   title: Director Business Development
   company: Federated Media
-  image: ../badgers/BadgerPictures/Jonas_Halpren.jpg
+  photo: ../badgers/BadgerPictures/Jonas_Halpren.jpg
   linkedin_url: http://www.linkedin.com/in/jonashalpren
   tags:
   - Executives
@@ -619,14 +619,14 @@
   name: George Hamel
   title: Managing Partner
   company: ValueAct Capital
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Investors
 - !ruby/hash:Hashie::Mash
   name: Kris Harikrishnan
   title: VP Business Development
   company: Xoriant
-  image: ../badgers/BadgerPictures/Kris_Harikrishnan.jpg
+  photo: ../badgers/BadgerPictures/Kris_Harikrishnan.jpg
   linkedin_url: http://www.linkedin.com/in/kharikri
   tags:
   - Entrepreneurs
@@ -634,7 +634,7 @@
   name: Judith Hasko
   title: Partner
   company: Latham & Watkins
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/judith-hasko/3/512/a63
   tags:
   - Lawyers
@@ -642,7 +642,7 @@
   name: David Hatch
   title: Director UI
   company: Trulia
-  image: ../badgers/BadgerPictures/David_Hatch.jpg
+  photo: ../badgers/BadgerPictures/David_Hatch.jpg
   linkedin_url: http://www.linkedin.com/in/davidmichaelhatch
   tags:
   - Executives
@@ -650,7 +650,7 @@
   name: John Hawkes
   title: Director R&D
   company: Penguin Computing
-  image: ../badgers/BadgerPictures/John_Hawkes.jpg
+  photo: ../badgers/BadgerPictures/John_Hawkes.jpg
   linkedin_url: http://www.linkedin.com/pub/john-hawkes/4/271/790
   tags:
   - Executives
@@ -658,7 +658,7 @@
   name: Joe Hellerstein
   title: Professor Computer Science
   company: UC Berkeley
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/joehellerstein
   tags:
   - Faculty
@@ -666,14 +666,14 @@
   name: Alan Hinkle
   title: President
   company: Kiostar
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Kenneth Hirsch
   title: President
   company: Brownstone Investments
-  image: ../badgers/BadgerPictures/Kenneth_Hirsch.jpg
+  photo: ../badgers/BadgerPictures/Kenneth_Hirsch.jpg
   linkedin_url: http://www.linkedin.com/pub/kenneth-hirsch/0/b44/7a2
   tags:
   - Investors
@@ -681,35 +681,35 @@
   name: James Hoelter
   title: Chairman
   company: Centricity
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: John Holton
   title: Founder/CEO
   company: SCI Solutions
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Entrepreneurs
 - !ruby/hash:Hashie::Mash
   name: Sky Hou
   title: Project Manager
   company: Oracle
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Joanne Howard
   title: Managing Director
   company: RCM Capital
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Investors
 - !ruby/hash:Hashie::Mash
   name: Nai-Ting Hsu
   title: CTO
   company: Array Networks
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/nai-ting-hsu/0/649/a78
   tags:
   - Executives
@@ -717,7 +717,7 @@
   name: Nathan Huynh
   title: Attorney
   company: Wilson Sonsini
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/nshuynh
   tags:
   - Lawyers
@@ -725,7 +725,7 @@
   name: Sharat Israni
   title: VP
   company: Intuit
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/sharat-israni/4/52b/11a
   tags:
   - Executives
@@ -733,7 +733,7 @@
   name: Mani Iyer
   title: Founder/CEO
   company: Kwanzoo
-  image: ../badgers/BadgerPictures/Mani_Iyer.jpg
+  photo: ../badgers/BadgerPictures/Mani_Iyer.jpg
   linkedin_url: http://www.linkedin.com/in/iyermani
   tags:
   - Entrepreneurs
@@ -741,7 +741,7 @@
   name: Jay Jacobs
   title: Partner
   company: Merlin Securities
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/jay-jacobs/12/792/7aa
   tags:
   - Investors
@@ -749,7 +749,7 @@
   name: Sean Jacobsohn
   title: VP Channel Management
   company: Cornerstone OnDemand
-  image: ../badgers/BadgerPictures/Sean_Jacobsohn.jpg
+  photo: ../badgers/BadgerPictures/Sean_Jacobsohn.jpg
   linkedin_url: http://www.linkedin.com/in/seanjacobsohn
   tags:
   - Executives
@@ -757,7 +757,7 @@
   name: Satchit Jain
   title: VP
   company: Conexant Systems
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/satchit-jain/0/a55/973
   tags:
   - Executives
@@ -765,7 +765,7 @@
   name: John Janetos
   title: VP Business Development
   company: iPost
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/johnjanetos
   tags:
   - Executives
@@ -773,7 +773,7 @@
   name: Jay Jawahar
   title: VP Engineering
   company: Zenprise
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/jjawahar
   tags:
   - Entrepreneurs
@@ -781,7 +781,7 @@
   name: Rajeev Jog
   title: EVP Marketing & Sales
   company: Veloxe
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/rajeevjog
   tags:
   - Executives
@@ -789,7 +789,7 @@
   name: Britt Johnson
   title: Owner
   company: Jtech Systems
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/brittjohnson
   tags:
   - Executives
@@ -797,7 +797,7 @@
   name: Craig Johnson
   title: Division Director
   company: Avermedia Technologies
-  image: ../badgers/BadgerPictures/Craig_Johnson.jpg
+  photo: ../badgers/BadgerPictures/Craig_Johnson.jpg
   linkedin_url: http://www.linkedin.com/in/craigjohnson480
   tags:
   - Executives
@@ -805,7 +805,7 @@
   name: Coco Jones
   title: VP Sales
   company: JiWire
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/coco-jones/0/667/475
   tags:
   - Executives
@@ -813,7 +813,7 @@
   name: Jim Jorgenson
   title: Partner
   company: Morgen Group
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/jim-jorgensen/0/145/a25
   tags:
   - Consultants
@@ -821,7 +821,7 @@
   name: Pradeep Jotwani
   title: President Consumer Digital
   company: Eastman Kodak
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/pradeep-jotwani/0/67/845
   tags:
   - Executives
@@ -829,7 +829,7 @@
   name: Eliot Jubelirer
   title: Partner
   company: Schiff Hardin
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/eliot-jubelirer/20/190/8a
   tags:
   - Lawyers
@@ -837,7 +837,7 @@
   name: Tom Kalil
   title: Chair Global Health
   company: Clinton Global Initiative
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/tom-kalil/0/1/a58
   tags:
   - Executives
@@ -845,7 +845,7 @@
   name: Craig Kalinowski
   title: SVP
   company: Cornish & Carey
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/craig-kalinowski/2/4a0/678
   tags:
   - Executives
@@ -853,7 +853,7 @@
   name: Tom Kalinske
   title: Vice Chairman
   company: Leapfrog
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/tom-kalinske/4/3/290
   tags:
   - Executives
@@ -861,7 +861,7 @@
   name: Anand Kamannavar
   title: Partner
   company: Applied Ventures
-  image: ../badgers/BadgerPictures/Anand_Kamannavar.jpg
+  photo: ../badgers/BadgerPictures/Anand_Kamannavar.jpg
   linkedin_url: http://www.linkedin.com/in/kamannavar
   tags:
   - Investors
@@ -869,7 +869,7 @@
   name: Chander Kant
   title: Founder/CEO
   company: Zmanda
-  image: ../badgers/BadgerPictures/Chander_Kant.jpg
+  photo: ../badgers/BadgerPictures/Chander_Kant.jpg
   linkedin_url: http://www.linkedin.com/in/chanderkant
   tags:
   - Entrepreneurs
@@ -877,7 +877,7 @@
   name: Pranay Kapadia
   title: Group Product Manager
   company: Intuit
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/pranaykapadia
   tags:
   - Executives
@@ -885,7 +885,7 @@
   name: Kimberly Karp
   title: Owner
   company: KK Promotions
-  image: ../badgers/BadgerPictures/Kimberly_Karp.jpg
+  photo: ../badgers/BadgerPictures/Kimberly_Karp.jpg
   linkedin_url: http://www.linkedin.com/pub/kimberly-karp/0/35/957
   tags:
   - Entrepreneurs
@@ -893,7 +893,7 @@
   name: Chris Kay
   title: MD Growth Ventures
   company: Citi
-  image: ../badgers/BadgerPictures/Chris_Kay.jpg
+  photo: ../badgers/BadgerPictures/Chris_Kay.jpg
   linkedin_url: http://www.linkedin.com/pub/chris-kay/4/890/6a3
   tags:
   - Investors
@@ -901,7 +901,7 @@
   name: Shardul Kazi
   title: SVP
   company: Toshiba
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/shardulkazi
   tags:
   - Executives
@@ -909,7 +909,7 @@
   name: Brad King
   title: VP Marketing
   company: TellApart
-  image: ../badgers/BadgerPictures/Brad_King.jpg
+  photo: ../badgers/BadgerPictures/Brad_King.jpg
   linkedin_url: http://www.linkedin.com/in/kingbradley
   tags:
   - Executives
@@ -917,7 +917,7 @@
   name: Judy Kirkpatrick
   title: Director
   company: Ronald McDonald House
-  image: ../badgers/BadgerPictures/Judy_Kirkpatrick.jpg
+  photo: ../badgers/BadgerPictures/Judy_Kirkpatrick.jpg
   linkedin_url: http://www.linkedin.com/in/judykirkpatrick
   tags:
   - Executives
@@ -925,7 +925,7 @@
   name: Daniel Knauss
   title: Associate
   company: Cooley
-  image: ../badgers/BadgerPictures/Daniel_Knauss.jpg
+  photo: ../badgers/BadgerPictures/Daniel_Knauss.jpg
   linkedin_url: http://www.linkedin.com/pub/daniel-knauss/15/374/825
   tags:
   - Lawyers
@@ -933,7 +933,7 @@
   name: Alyssa Knutson
   title: Associate
   company: Wilson Sonsini
-  image: ../badgers/BadgerPictures/Alyssa_Knutson.jpg
+  photo: ../badgers/BadgerPictures/Alyssa_Knutson.jpg
   linkedin_url: http://www.linkedin.com/in/alyssaknutson
   tags:
   - Lawyers
@@ -941,7 +941,7 @@
   name: Dave Koberstein
   title: Director R&D
   company: Mojix
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/davekoberstein
   tags:
   - Entrepreneurs
@@ -949,7 +949,7 @@
   name: Daniel Koeppen
   title: Associate
   company: Wilson Sonsini
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/dan-koeppen/9/302/72b
   tags:
   - Lawyers
@@ -957,7 +957,7 @@
   name: Madhur Kohli
   title: VP Engineering
   company: Floreat
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/madhur-kohli/3/711/38a
   tags:
   - Executives
@@ -965,7 +965,7 @@
   name: Norman Koo
   title: Managing Director
   company: Intuit China
-  image: ../badgers/BadgerPictures/Norman_Koo.jpg
+  photo: ../badgers/BadgerPictures/Norman_Koo.jpg
   linkedin_url: http://www.linkedin.com/pub/norman-koo/0/9ab/712
   tags:
   - Executives
@@ -973,7 +973,7 @@
   name: Ed Kopetsky
   title: CIO
   company: Lucille Packard Hospital
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/edward-kopetsky/7/475/189
   tags:
   - Executives
@@ -981,7 +981,7 @@
   name: Manish Kothari
   title: Founder/President
   company: Aspen Learning
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/manish-kothari/0/1b/111
   tags:
   - Entrepreneurs
@@ -989,7 +989,7 @@
   name: Eric Kowalchyk
   title: Senior Product Manager
   company: LinkedIn
-  image: ../badgers/BadgerPictures/Eric_Kowalchyk.jpg
+  photo: ../badgers/BadgerPictures/Eric_Kowalchyk.jpg
   linkedin_url: http://www.linkedin.com/in/erickowalchyk
   tags:
   - Executives
@@ -997,7 +997,7 @@
   name: Jeremy Kranz
   title: SVP
   company: GIC Special Investments
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/jeremykranz
   tags:
   - Investors
@@ -1005,7 +1005,7 @@
   name: Matt Kuckuk
   title: Executive Consultant
   company: CGI
-  image: ../badgers/BadgerPictures/Matt_Kuckuk.jpg
+  photo: ../badgers/BadgerPictures/Matt_Kuckuk.jpg
   linkedin_url: http://www.linkedin.com/pub/matt-kuckuk/0/396/3b0
   tags:
   - Executives
@@ -1013,7 +1013,7 @@
   name: David Lakritz
   title: CEO
   company: Language Automation
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/david-lakritz/0/27/a54
   tags:
   - Executives
@@ -1021,7 +1021,7 @@
   name: Yezdi Lashkari
   title: Chief Strategy Officer
   company: Netcore Solutions
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/yezdilashkari
   tags:
   - Entrepreneurs
@@ -1029,7 +1029,7 @@
   name: Mike Lehman
   title: CFO
   company: Palo Alto Networks
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/michael-lehman/0/49/794
   tags:
   - Executives
@@ -1037,7 +1037,7 @@
   name: Angela Leonardo
   title: Marketing Manager
   company: Clif Bar
-  image: ../badgers/BadgerPictures/Angela_Leonardo.jpg
+  photo: ../badgers/BadgerPictures/Angela_Leonardo.jpg
   linkedin_url: http://www.linkedin.com/pub/angela-leonardo/1/b47/588
   tags:
   - Executives
@@ -1045,7 +1045,7 @@
   name: Jess Leroy
   title: Director Product Management
   company: Riverbed Technology
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/jess-leroy/0/41b/797
   tags:
   - Executives
@@ -1053,7 +1053,7 @@
   name: Woodrow Levin
   title: Founder/CEO
   company: Bringit
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/woodrow-levin/9/148/540
   tags:
   - Entrepreneurs
@@ -1061,14 +1061,14 @@
   name: Jiang Li
   title: VP Engineering
   company: Kovio
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Michael Liebow
   title: Founder/CEO
   company: Stealth startup
-  image: ../badgers/BadgerPictures/Michael_Liebow.jpg
+  photo: ../badgers/BadgerPictures/Michael_Liebow.jpg
   linkedin_url: http://www.linkedin.com/in/mliebow
   tags:
   - Entrepreneurs
@@ -1076,7 +1076,7 @@
   name: Noel Lindsay
   title: Chairman/CEO
   company: Sleep Science Partners
-  image: ../badgers/BadgerPictures/Noel_Lindsay.jpg
+  photo: ../badgers/BadgerPictures/Noel_Lindsay.jpg
   linkedin_url: http://www.linkedin.com/in/nlindsay
   tags:
   - Executives
@@ -1084,7 +1084,7 @@
   name: Susan Lucas-Conwell
   title: CEO
   company: SDForum
-  image: ../badgers/BadgerPictures/Susan_Lucas-Conwell.jpg
+  photo: ../badgers/BadgerPictures/Susan_Lucas-Conwell.jpg
   linkedin_url: http://www.linkedin.com/in/slucasconwell
   tags:
   - Executives
@@ -1092,7 +1092,7 @@
   name: Stephane Maes
   title: VP Marketing
   company: Palm
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/stephanemaes
   tags:
   - Executives
@@ -1100,14 +1100,14 @@
   name: Udi Manber
   title: VP Search
   company: Google
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Laurie Martin
   title: CEO
   company: Chief Executive Council
-  image: ../badgers/BadgerPictures/Laurie_Martin.jpg
+  photo: ../badgers/BadgerPictures/Laurie_Martin.jpg
   linkedin_url: http://www.linkedin.com/in/lanstein
   tags:
   - Consultants
@@ -1115,7 +1115,7 @@
   name: Jeff Mason
   title: Managing Partner
   company: Enfensa
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/jeffrey-mason/0/95/678
   tags:
   - Consultants
@@ -1123,7 +1123,7 @@
   name: Dave McCandless
   title: Director IT
   company: Navis
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/dave-mccandless/0/40/a56
   tags:
   - Executives
@@ -1131,14 +1131,14 @@
   name: Manish Mehta
   title: CEO
   company: Tangence
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Entrepreneurs
 - !ruby/hash:Hashie::Mash
   name: Nitin Mehta
   title: Managing Partner
   company: Greenoaks Capital
-  image: ../badgers/BadgerPictures/Nitin_Mehta.jpg
+  photo: ../badgers/BadgerPictures/Nitin_Mehta.jpg
   linkedin_url: http://www.linkedin.com/pub/nitin-mehta/14/370/a3b
   tags:
   - Investors
@@ -1146,7 +1146,7 @@
   name: Krishna Menon
   title: CTO
   company: Altus Learning Systems
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/krishna-menon/0/561/b81
   tags:
   - Executives
@@ -1154,7 +1154,7 @@
   name: Paul Mielke
   title: Software Manager
   company: BroadOn Communications
-  image: ../badgers/BadgerPictures/Paul_Mielke.jpg
+  photo: ../badgers/BadgerPictures/Paul_Mielke.jpg
   linkedin_url: http://www.linkedin.com/pub/paul-mielke/0/464/213
   tags:
   - Executives
@@ -1162,7 +1162,7 @@
   name: Jen Millard
   title: EVP
   company: Zoom Systems
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/jenmillard
   tags:
   - Executives
@@ -1170,14 +1170,14 @@
   name: Chadwick Mills
   title: Partner
   company: Cooley
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Lawyers
 - !ruby/hash:Hashie::Mash
   name: Jacquelyn Mogol
   title: Director Sales
   company: NetShelter
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/jacquelynmogol
   tags:
   - Executives
@@ -1185,7 +1185,7 @@
   name: Viggy Mokkarala
   title: EVP
   company: Envestnet
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/viggy-mokkarala/4/341/93
   tags:
   - Executives
@@ -1193,7 +1193,7 @@
   name: Bernard Moon
   title: CEO
   company: XS Groupe
-  image: ../badgers/BadgerPictures/Bernard_Moon.jpg
+  photo: ../badgers/BadgerPictures/Bernard_Moon.jpg
   linkedin_url: http://www.linkedin.com/in/bernardmoon
   tags:
   - Entrepreneurs
@@ -1201,28 +1201,28 @@
   name: Christopher Morgan
   title: SVP
   company: Hewlett Packard
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: John Morgridge
   title: Chairman Emeritus
   company: Cisco
-  image: ../badgers/BadgerPictures/John_Morgridge.jpg
+  photo: ../badgers/BadgerPictures/John_Morgridge.jpg
   tags:
   - Philanthropists
 - !ruby/hash:Hashie::Mash
   name: Tashia Morgridge
   title: Philanthropist
   company: ex-Special Ed teacher
-  image: ../badgers/BadgerPictures/Tashia_Morgridge.jpg
+  photo: ../badgers/BadgerPictures/Tashia_Morgridge.jpg
   tags:
   - Philanthropists
 - !ruby/hash:Hashie::Mash
   name: David Mort
   title: Valuation Analyst
   company: Silicon Valley Bank
-  image: ../badgers/BadgerPictures/David_Mort.jpg
+  photo: ../badgers/BadgerPictures/David_Mort.jpg
   linkedin_url: http://www.linkedin.com/pub/david-mort/1b/53a/434
   tags:
   - Investors
@@ -1230,7 +1230,7 @@
   name: Srinivas Narayanan
   title: Founder
   company: Viralizr
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/srinivasnarayanan
   tags:
   - Entrepreneurs
@@ -1238,7 +1238,7 @@
   name: Ben Naskar
   title: VP & GM
   company: Atheros
-  image: ../badgers/BadgerPictures/Ben_Naskar.jpg
+  photo: ../badgers/BadgerPictures/Ben_Naskar.jpg
   linkedin_url: http://www.linkedin.com/pub/ben-naskar/3/93a/84a
   tags:
   - Executives
@@ -1246,7 +1246,7 @@
   name: Ashok Natesan
   title: VP Engineering
   company: Vendavo
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/ashok-natesan/0/44/767
   tags:
   - Executives
@@ -1254,7 +1254,7 @@
   name: Jim Neupert
   title: VP Marketing
   company: Abbott/Guidant Vascular
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/jim-neupert/8/47a/b00
   tags:
   - Executives
@@ -1262,7 +1262,7 @@
   name: Pavan Nigam
   title: Angel Investor
   company: Founder WebMD
-  image: ../badgers/BadgerPictures/Pavan_Nigam.jpg
+  photo: ../badgers/BadgerPictures/Pavan_Nigam.jpg
   linkedin_url: http://www.linkedin.com/in/pavannigam
   tags:
   - Investors
@@ -1270,7 +1270,7 @@
   name: Catherine Oak
   title: Owner
   company: Oak & Associates
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/catherine-oak-schoeffler/1/655/457
   tags:
   - Executives
@@ -1278,7 +1278,7 @@
   name: Robert Olah
   title: VP Engineering
   company: Banpil Photonics
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/robert-olah/11/487/a81
   tags:
   - Executives
@@ -1286,7 +1286,7 @@
   name: Nicole Osmer
   title: Owner
   company: Nicole Osmer Communications
-  image: ../badgers/BadgerPictures/Nicole_Osmer.jpg
+  photo: ../badgers/BadgerPictures/Nicole_Osmer.jpg
   linkedin_url: http://www.linkedin.com/in/nicoleosmer
   tags:
   - Consultants
@@ -1294,21 +1294,21 @@
   name: Signe Ostby
   title: Philanthropist
   company: ex-VP Software Publishing
-  image: ../badgers/BadgerPictures/Signe_Ostby.jpg
+  photo: ../badgers/BadgerPictures/Signe_Ostby.jpg
   tags:
   - Philanthropists
 - !ruby/hash:Hashie::Mash
   name: Mae Ozkan
   title: General Partner
   company: Golden Horn Ventures
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Investors
 - !ruby/hash:Hashie::Mash
   name: Tom Pagel
   title: Managing Partner
   company: Edge Global Management
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/tom-pagel/0/6b5/738
   tags:
   - Investment Bankers
@@ -1316,7 +1316,7 @@
   name: Anil Pal
   title: Technical Consultant
   company: LinkedIn
-  image: ../badgers/BadgerPictures/Anil_Pal.jpg
+  photo: ../badgers/BadgerPictures/Anil_Pal.jpg
   linkedin_url: http://www.linkedin.com/pub/anil-pal/0/464/189
   tags:
   - Consultants
@@ -1324,7 +1324,7 @@
   name: Monica Pal
   title: VP Marketing
   company: iFan Media
-  image: ../badgers/BadgerPictures/Monica_Pal.jpg
+  photo: ../badgers/BadgerPictures/Monica_Pal.jpg
   linkedin_url: http://www.linkedin.com/in/monicapal
   tags:
   - Entrepreneurs
@@ -1332,7 +1332,7 @@
   name: Andy Palay
   title: Architect
   company: Google
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/andy-palay/0/7b2/941
   tags:
   - Executives
@@ -1340,7 +1340,7 @@
   name: Nitin Parekh
   title: President
   company: B2U Solar
-  image: ../badgers/BadgerPictures/Nitin_Parekh.jpg
+  photo: ../badgers/BadgerPictures/Nitin_Parekh.jpg
   linkedin_url: http://www.linkedin.com/pub/nitin-parekh/0/578/454
   tags:
   - Executives
@@ -1348,7 +1348,7 @@
   name: Nick Park
   title: Founder
   company: stereowagon.com
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/nckpark
   tags:
   - Entrepreneurs
@@ -1356,7 +1356,7 @@
   name: Tom Pavela
   title: CEO
   company: Omni-ID
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/tompavela
   tags:
   - Executives
@@ -1364,7 +1364,7 @@
   name: Ann Pease
   title: Partner
   company: Dechert
-  image: ../badgers/BadgerPictures/Ann_Pease.jpg
+  photo: ../badgers/BadgerPictures/Ann_Pease.jpg
   linkedin_url: http://www.linkedin.com/pub/ann-m-pease/8/a10/799
   tags:
   - Lawyers
@@ -1372,7 +1372,7 @@
   name: Damodar Periwal
   title: Founder/CTO
   company: Software Tree
-  image: ../badgers/BadgerPictures/Damodar_Periwal.jpg
+  photo: ../badgers/BadgerPictures/Damodar_Periwal.jpg
   linkedin_url: http://www.linkedin.com/pub/damodar-periwal/0/36/8b0
   tags:
   - Entrepreneurs
@@ -1380,7 +1380,7 @@
   name: Neel Phadnis
   title: Founder/CTO
   company: Mojolt
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/neel-phadnis/1/258/828
   tags:
   - Entrepreneurs
@@ -1388,7 +1388,7 @@
   name: Brian Pinkerton
   title: VP Engineering
   company: Lucid Imagination
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/brianpinkerton
   tags:
   - Executives
@@ -1396,7 +1396,7 @@
   name: Adam Pivovar
   title: Attorney
   company: Cooley
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/adam-pivovar/3/7b7/180
   tags:
   - Lawyers
@@ -1404,7 +1404,7 @@
   name: Susan Pommer
   title: Product Manager
   company: Serious Materials
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/susanpommer
   tags:
   - Executives
@@ -1412,7 +1412,7 @@
   name: STS Prasad
   title: VP
   company: Kosmix
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/stsprasad
   tags:
   - Executives
@@ -1420,7 +1420,7 @@
   name: Manish Punjabi
   title: Senior Director
   company: Research in Motion
-  image: ../badgers/BadgerPictures/Manish_Punjabi.jpg
+  photo: ../badgers/BadgerPictures/Manish_Punjabi.jpg
   linkedin_url: http://www.linkedin.com/in/manishpunjabi
   tags:
   - Entrepreneurs
@@ -1428,7 +1428,7 @@
   name: Karthik Ramasami
   title: Founder/President
   company: Locomatix
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/kramasamy
   tags:
   - Entrepreneurs
@@ -1436,7 +1436,7 @@
   name: Oostur Raza
   title: CEO
   company: OmegaGenesis
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/oostur-raza/4/445/23
   tags:
   - Executives
@@ -1444,7 +1444,7 @@
   name: Chandrasekar Reddy
   title: Founder/CEO
   company: Sonic Chips
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/chandrashekar-reddy/3/8/ba
   tags:
   - Entrepreneurs
@@ -1452,7 +1452,7 @@
   name: Ram Reddy
   title: Chairman/CEO
   company: MosChip
-  image: ../badgers/BadgerPictures/Ram_Reddy.jpg
+  photo: ../badgers/BadgerPictures/Ram_Reddy.jpg
   linkedin_url: http://www.linkedin.com/pub/ram-reddy/1/bb3/15a
   tags:
   - Executives
@@ -1460,7 +1460,7 @@
   name: Glenn Reid
   title: Founder/CEO
   company: Inventor Labs
-  image: ../badgers/BadgerPictures/Glenn_Reid.jpg
+  photo: ../badgers/BadgerPictures/Glenn_Reid.jpg
   linkedin_url: http://www.linkedin.com/in/glennreid
   tags:
   - Entrepreneurs
@@ -1468,7 +1468,7 @@
   name: Jay Reinemann
   title: Executive Director
   company: BBVA
-  image: ../badgers/BadgerPictures/Jay_Reinemann.jpg
+  photo: ../badgers/BadgerPictures/Jay_Reinemann.jpg
   linkedin_url: http://www.linkedin.com/in/jayreinemann
   tags:
   - Investors
@@ -1476,7 +1476,7 @@
   name: Mark Reinstra
   title: Partner
   company: Wilson Sonsini
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/mark-reinstra/1b/963/8a8
   tags:
   - Lawyers
@@ -1484,7 +1484,7 @@
   name: TK Rengarajan
   title: EVP
   company: SAP
-  image: ../badgers/BadgerPictures/TK_Rengarajan.jpg
+  photo: ../badgers/BadgerPictures/TK_Rengarajan.jpg
   linkedin_url: http://www.linkedin.com/pub/t-k-rengarajan/0/17b/404
   tags:
   - Executives
@@ -1492,7 +1492,7 @@
   name: Brian Roddy
   title: SVP Engineering
   company: Jive Software
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/brian-roddy/0/123/226
   tags:
   - Executives
@@ -1500,7 +1500,7 @@
   name: Joe Rodriguez
   title: Partner
   company: Harbour Strategic Consulting
-  image: ../badgers/BadgerPictures/Joe_Rodriguez.jpg
+  photo: ../badgers/BadgerPictures/Joe_Rodriguez.jpg
   linkedin_url: http://www.linkedin.com/pub/joe-rodriguez/0/a85/979
   tags:
   - Consultants
@@ -1508,7 +1508,7 @@
   name: Bill Roth
   title: CMO
   company: LogLogic
-  image: ../badgers/BadgerPictures/Bill_Roth.jpg
+  photo: ../badgers/BadgerPictures/Bill_Roth.jpg
   linkedin_url: http://www.linkedin.com/in/wgroth2
   tags:
   - Executives
@@ -1516,7 +1516,7 @@
   name: Janine Roth
   title: Managing Director
   company: Pante  Roth
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/janineroth
   tags:
   - Consultants
@@ -1524,7 +1524,7 @@
   name: Walter Roth
   title: CEO
   company: inward.me
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/walterroth
   tags:
   - Entrepreneurs
@@ -1532,7 +1532,7 @@
   name: John Rountree
   title: Director Support
   company: Linden Lab
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/john-rountree/1/805/869
   tags:
   - Executives
@@ -1540,7 +1540,7 @@
   name: Tom Rudkin
   title: Software Consultant
   company: ex-developer Powerpoint
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/tom-rudkin/13/415/87b
   tags:
   - Executives
@@ -1548,7 +1548,7 @@
   name: Joga Ryali
   title: VP
   company: CA Technologies
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/joga-ryali/3/581/9b0
   tags:
   - Executives
@@ -1556,7 +1556,7 @@
   name: William Ryan
   title: Founder/Partner
   company: Mandala
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/william-ryan/0/4b3/241
   tags:
   - Consultants
@@ -1564,7 +1564,7 @@
   name: Harjit Sabharwal
   title: VP Engineering
   company: Therify
-  image: ../badgers/BadgerPictures/Harjit_Sabharwal.jpg
+  photo: ../badgers/BadgerPictures/Harjit_Sabharwal.jpg
   linkedin_url: http://www.linkedin.com/in/hsabharwal
   tags:
   - Executives
@@ -1572,7 +1572,7 @@
   name: Mahin Samadani
   title: VP Business Development
   company: Loomis Group
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/mahin
   tags:
   - Executives
@@ -1580,7 +1580,7 @@
   name: Srirram Samu
   title: Senior Director
   company: eBay
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/sriramsamu
   tags:
   - Executives
@@ -1588,7 +1588,7 @@
   name: Vaishnavi Sashikanth
   title: VP Development
   company: Oracle
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/vaishnavi-anjur-sashikanth/4/165/326
   tags:
   - Executives
@@ -1596,7 +1596,7 @@
   name: Arun Sastry
   title: Tech Lead
   company: Cisco
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/arun-sastry/0/b45/8a4
   tags:
   - Executives
@@ -1604,7 +1604,7 @@
   name: Anil Sawe
   title: Consultant
   company: Xanvi
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/anilsawe
   tags:
   - Consultants
@@ -1612,21 +1612,21 @@
   name: Arthur Schneiderman
   title: Partner
   company: Wilson Sonsini
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Lawyers
 - !ruby/hash:Hashie::Mash
   name: Ken Schroeder
   title: Retired
   company: ex-CEO KLA Tencor
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Michael Schultz
   title: CEO
   company: GenMobi Technologies
-  image: ../badgers/BadgerPictures/Michael_Schultz.jpg
+  photo: ../badgers/BadgerPictures/Michael_Schultz.jpg
   linkedin_url: http://www.linkedin.com/in/michaeljschultz
   tags:
   - Entrepreneurs
@@ -1634,7 +1634,7 @@
   name: Tom Serleth
   title: Owner
   company: PowerTransitions
-  image: ../badgers/BadgerPictures/Tom_Serleth.jpg
+  photo: ../badgers/BadgerPictures/Tom_Serleth.jpg
   linkedin_url: http://www.linkedin.com/pub/tom-serleth/0/203/116
   tags:
   - Consultants
@@ -1642,7 +1642,7 @@
   name: Bipin Shah
   title: CEO/Chairman
   company: Kovair Software
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/bipin-shah/7/162/336
   tags:
   - Executives
@@ -1650,7 +1650,7 @@
   name: Dhaval N. Shah
   title: VP
   company: Xoriant
-  image: ../badgers/BadgerPictures/Dhaval N._Shah.jpg
+  photo: ../badgers/BadgerPictures/Dhaval N._Shah.jpg
   linkedin_url: http://www.linkedin.com/in/justdoit
   tags:
   - Entrepreneurs
@@ -1658,14 +1658,14 @@
   name: Manoj Sharma
   title: VP
   company: Informed
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Entrepreneurs
 - !ruby/hash:Hashie::Mash
   name: Sanjeev Sharma
   title: People Technology Operations
   company: Google
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/fluidwireless
   tags:
   - Executives
@@ -1673,7 +1673,7 @@
   name: Shioupyn Shen
   title: Founder/CEO
   company: CloudMosa
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/shioupyn
   tags:
   - Entrepreneurs
@@ -1681,7 +1681,7 @@
   name: Catherine Shinners
   title: Marketing Consultant
   company: Cisco
-  image: ../badgers/BadgerPictures/Catherine_Shinners.jpg
+  photo: ../badgers/BadgerPictures/Catherine_Shinners.jpg
   linkedin_url: http://www.linkedin.com/in/catherineshinners
   tags:
   - Consultants
@@ -1689,7 +1689,7 @@
   name: Donovan Shneider
   title: Architect
   company: Salesforce.com
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/donovan-schneider/0/34b/534
   tags:
   - Executives
@@ -1697,7 +1697,7 @@
   name: Arshad Siddiqi
   title: Principal
   company: Performance Marketing
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/arshadsiddiqi
   tags:
   - Entrepreneurs
@@ -1705,7 +1705,7 @@
   name: Melissa Siems
   title: Director Marketing
   company: McAfee
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/melissa-siems/0/510/65b
   tags:
   - Executives
@@ -1713,7 +1713,7 @@
   name: Eric Sirkin
   title: SVP R&D
   company: Silexos
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/eric-sirkin/0/46b/bbb
   tags:
   - Entrepreneurs
@@ -1721,7 +1721,7 @@
   name: Joel Slack
   title: VP Sales
   company: Sales Economics
-  image: ../badgers/BadgerPictures/Joel_Slack.jpg
+  photo: ../badgers/BadgerPictures/Joel_Slack.jpg
   linkedin_url: http://www.linkedin.com/in/joelslack
   tags:
   - Consultants
@@ -1729,7 +1729,7 @@
   name: John Soper
   title: Managing Director
   company: New Paradigms
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/johnsoper
   tags:
   - Consultants
@@ -1737,7 +1737,7 @@
   name: Todd Speece
   title: Principal
   company: Piper Jaffray
-  image: ../badgers/BadgerPictures/Todd_Speece.jpg
+  photo: ../badgers/BadgerPictures/Todd_Speece.jpg
   linkedin_url: http://www.linkedin.com/in/toddmspeece
   tags:
   - Investment Bankers
@@ -1745,7 +1745,7 @@
   name: Michael Splinter
   title: Chairman/CEO
   company: Applied Materials
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/mike-splinter/0/83/b39
   tags:
   - Executives
@@ -1753,7 +1753,7 @@
   name: Srini Srinivasan
   title: Founder/CTO
   company: Citrusleaf
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/drvsrini
   tags:
   - Entrepreneurs
@@ -1761,14 +1761,14 @@
   name: Barb Stinnett
   title: Managing Partner
   company: Timmaron Capital Advisors
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Consultants
 - !ruby/hash:Hashie::Mash
   name: Murali Subbarao
   title: Founder/CEO
   company: Billeo
-  image: ../badgers/BadgerPictures/Murali_Subbarao.jpg
+  photo: ../badgers/BadgerPictures/Murali_Subbarao.jpg
   linkedin_url: http://www.linkedin.com/pub/murali-subbarao/0/26/b87
   tags:
   - Entrepreneurs
@@ -1776,7 +1776,7 @@
   name: Ramu Sunkara
   title: Founder
   company: Qik
-  image: ../badgers/BadgerPictures/Ramu_Sunkara.jpg
+  photo: ../badgers/BadgerPictures/Ramu_Sunkara.jpg
   linkedin_url: http://www.linkedin.com/in/ramusunkara
   tags:
   - Entrepreneurs
@@ -1784,7 +1784,7 @@
   name: Arnab Sur
   title: VP Sales
   company: AT&T
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/arnabsur
   tags:
   - Executives
@@ -1792,7 +1792,7 @@
   name: Prem Talreja
   title: Director Sales
   company: Sigma Designs
-  image: ../badgers/BadgerPictures/Prem_Talreja.jpg
+  photo: ../badgers/BadgerPictures/Prem_Talreja.jpg
   linkedin_url: http://www.linkedin.com/pub/prem-talreja/3/b85/376
   tags:
   - Executives
@@ -1800,7 +1800,7 @@
   name: Jim Tamplin
   title: Founder/CEO
   company: Envolve
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/jamest
   tags:
   - Entrepreneurs
@@ -1808,7 +1808,7 @@
   name: Roy Thiele-Sardina
   title: Managing Partner
   company: HighBAR Partners
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/roy-thiele-sardi
   tags:
   - Investors
@@ -1816,7 +1816,7 @@
   name: Jeff Thomas
   title: VP Engineering
   company: Huawei Technologies
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/jeffreyathomas1
   tags:
   - Executives
@@ -1824,7 +1824,7 @@
   name: Mark Thomas
   title: Product Manager
   company: Intuit
-  image: ../badgers/BadgerPictures/Mark_Thomas.jpg
+  photo: ../badgers/BadgerPictures/Mark_Thomas.jpg
   linkedin_url: http://www.linkedin.com/in/markthomastalent
   tags:
   - Entrepreneurs
@@ -1832,7 +1832,7 @@
   name: Amelia Thornton
   title: President
   company: Thornton Group
-  image: ../badgers/BadgerPictures/Amelia_Thornton.jpg
+  photo: ../badgers/BadgerPictures/Amelia_Thornton.jpg
   linkedin_url: http://www.linkedin.com/pub/amelia-tess-thornton/0/50/79b
   tags:
   - Consultants
@@ -1840,7 +1840,7 @@
   name: Andy Toebben
   title: Partner
   company: Virtual Law Partners
-  image: ../badgers/BadgerPictures/Andy_Toebben.jpg
+  photo: ../badgers/BadgerPictures/Andy_Toebben.jpg
   linkedin_url: http://www.linkedin.com/in/andytoebben
   tags:
   - Lawyers
@@ -1848,14 +1848,14 @@
   name: Tuan Tran
   title: VP/GM
   company: Hewlett Packard
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Sanjay Uppal
   title: President
   company: OnMobile Global
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/sanjayuppal
   tags:
   - Executives
@@ -1863,7 +1863,7 @@
   name: David Van Etten
   title: Associate
   company: Cooley
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/david-van-etten/a/527/b09
   tags:
   - Lawyers
@@ -1871,14 +1871,14 @@
   name: Rajiv Varma
   title: Engineering Consultant
   company: Self-employed
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Consultants
 - !ruby/hash:Hashie::Mash
   name: Guda Venkatesh
   title: Founder/CEO
   company: Vysr
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/guda-venkatesh/0/95/853
   tags:
   - Entrepreneurs
@@ -1886,7 +1886,7 @@
   name: Ravi Vijayaraghavan
   title: VP
   company: 24/7 Customer
-  image: ../badgers/BadgerPictures/Ravi_Vijayaraghavan.jpg
+  photo: ../badgers/BadgerPictures/Ravi_Vijayaraghavan.jpg
   linkedin_url: http://www.linkedin.com/in/ravivijayaraghavan
   tags:
   - Executives
@@ -1894,7 +1894,7 @@
   name: Vish Vishwanath
   title: SVP
   company: Persistent Systems
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/vishvishwanath
   tags:
   - Executives
@@ -1902,7 +1902,7 @@
   name: Kumar Vora
   title: SVP
   company: Oracle
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/kumar-vora/0/62/a6
   tags:
   - Executives
@@ -1910,7 +1910,7 @@
   name: Sharon Vosmek
   title: CEO
   company: Astia
-  image: ../badgers/BadgerPictures/Sharon_Vosmek.jpg
+  photo: ../badgers/BadgerPictures/Sharon_Vosmek.jpg
   linkedin_url: http://www.linkedin.com/in/sharonvosmek
   tags:
   - Executives
@@ -1918,7 +1918,7 @@
   name: Ellen Wagner
   title: VP Solutions
   company: Sage Road Solutions
-  image: ../badgers/BadgerPictures/Ellen_Wagner.jpg
+  photo: ../badgers/BadgerPictures/Ellen_Wagner.jpg
   linkedin_url: http://www.linkedin.com/in/ellenwagner
   tags:
   - Executives
@@ -1926,7 +1926,7 @@
   name: James Walker
   title: CEO
   company: Inadco
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/jameswalker1
   tags:
   - Entrepreneurs
@@ -1934,7 +1934,7 @@
   name: Bob Walker
   title: Partner
   company: Sierra Ventures
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/rwalkervc
   tags:
   - Investors
@@ -1942,7 +1942,7 @@
   name: Joseph Walla
   title: Founder
   company: HelloFax
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/joseph-walla/4/61/739
   tags:
   - Entrepreneurs
@@ -1950,7 +1950,7 @@
   name: Mark Wang
   title: Founder/CEO
   company: WPlex
-  image: ../badgers/BadgerPictures/Mark_Wang.jpg
+  photo: ../badgers/BadgerPictures/Mark_Wang.jpg
   linkedin_url: http://www.linkedin.com/in/wangmark
   tags:
   - Entrepreneurs
@@ -1958,7 +1958,7 @@
   name: Dejia Wang
   title: Founder
   company: Tulando
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/dejiawang
   tags:
   - Entrepreneurs
@@ -1966,7 +1966,7 @@
   name: Tony Wasserman
   title: Professor
   company: CMU West
-  image: ../badgers/BadgerPictures/Tony_Wasserman.jpg
+  photo: ../badgers/BadgerPictures/Tony_Wasserman.jpg
   linkedin_url: http://www.linkedin.com/in/tonywasserman
   tags:
   - Faculty
@@ -1974,7 +1974,7 @@
   name: Steve Weinswig
   title: GM
   company: Frog Design
-  image: ../badgers/BadgerPictures/Steve_Weinswig.jpg
+  photo: ../badgers/BadgerPictures/Steve_Weinswig.jpg
   linkedin_url: http://www.linkedin.com/in/steveweinswig
   tags:
   - Executives
@@ -1982,14 +1982,14 @@
   name: Tom Werner
   title: Chairman/CEO
   company: Sunpower
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Executives
 - !ruby/hash:Hashie::Mash
   name: Sandy Wilbourn
   title: VP Engineering
   company: Nominum
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/sandy-wilbourn/0/66/40b
   tags:
   - Executives
@@ -1997,7 +1997,7 @@
   name: Gary Willihnganz
   title: Director Marketing
   company: Intel
-  image: ../badgers/BadgerPictures/Gary_Willihnganz.jpg
+  photo: ../badgers/BadgerPictures/Gary_Willihnganz.jpg
   linkedin_url: http://www.linkedin.com/pub/gary-willihnganz/4/57a/273
   tags:
   - Executives
@@ -2005,7 +2005,7 @@
   name: Dave Winer
   title: Editor
   company: Scripting News
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/scripting
   tags:
   - Entrepreneurs
@@ -2013,7 +2013,7 @@
   name: Peter Winer
   title: Architect
   company: Cisco
-  image: ../badgers/BadgerPictures/Peter_Winer.jpg
+  photo: ../badgers/BadgerPictures/Peter_Winer.jpg
   linkedin_url: http://www.linkedin.com/in/peterwiner
   tags:
   - Executives
@@ -2021,7 +2021,7 @@
   name: Jonathan Wirt
   title: Marketing Manager
   company: KIXEYE
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/in/jonwirt
   tags:
   - Executives
@@ -2029,7 +2029,7 @@
   name: Bill Wisialowski
   title: Founder/Partner
   company: Seven Hills
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/bill-wisialowski/0/151/3
   tags:
   - Investment Bankers
@@ -2037,7 +2037,7 @@
   name: Art Wittmann
   title: VP
   company: Information Week
-  image: ../badgers/BadgerPictures/Art_Wittmann.jpg
+  photo: ../badgers/BadgerPictures/Art_Wittmann.jpg
   linkedin_url: http://www.linkedin.com/pub/art-wittmann/0/3aa/10a
   tags:
   - Executives
@@ -2045,7 +2045,7 @@
   name: Matthew Work
   title: Founder/CEO
   company: Cohuman
-  image: ../badgers/BadgerPictures/Matthew_Work.jpg
+  photo: ../badgers/BadgerPictures/Matthew_Work.jpg
   linkedin_url: http://www.linkedin.com/in/matthewwork
   tags:
   - Entrepreneurs
@@ -2053,7 +2053,7 @@
   name: Lei Yang
   title: Managing Director
   company: Northern Light Venture
-  image: ../badgers/BadgerPictures/Lei_Yang.jpg
+  photo: ../badgers/BadgerPictures/Lei_Yang.jpg
   linkedin_url: http://www.linkedin.com/pub/lei-yang/1/79/b5
   tags:
   - Investors
@@ -2061,14 +2061,14 @@
   name: Xiaochun Yao
   title: Associate
   company: Wilson Sonsini
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   tags:
   - Lawyers
 - !ruby/hash:Hashie::Mash
   name: Peter Young
   title: Professor New Media
   company: San Jose State
-  image: ../badgers/BadgerPictures/Peter_Young.jpg
+  photo: ../badgers/BadgerPictures/Peter_Young.jpg
   linkedin_url: http://www.linkedin.com/pub/peter-f-young/0/64a/7b3
   tags:
   - Faculty
@@ -2076,7 +2076,7 @@
   name: Patrick Zanoni
   title: CFO
   company: Fusion Systems Japan
-  image: ../badgers/BadgerPictures/Patrick_Zanoni.jpg
+  photo: ../badgers/BadgerPictures/Patrick_Zanoni.jpg
   linkedin_url: http://www.linkedin.com/in/pwzanoni
   tags:
   - Executives
@@ -2084,7 +2084,7 @@
   name: John Zipperer
   title: VP Media
   company: Commonwealth Club
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/john-zipperer/3/642/608
   tags:
   - Executives
@@ -2092,7 +2092,7 @@
   name: Duane Zitzner
   title: Director (many Boards)
   company: ex EVP HP
-  image: ../badgers/BadgerPictures/blank.png
+  photo: ../badgers/BadgerPictures/blank.png
   linkedin_url: http://www.linkedin.com/pub/duane-zitzner/3/222/b32
   tags:
   - Executives
@@ -2100,7 +2100,7 @@
   name: Darrell Zoromski
   title: CEO
   company: Miramar Labs
-  image: ../badgers/BadgerPictures/Darrell_Zoromski.jpg
+  photo: ../badgers/BadgerPictures/Darrell_Zoromski.jpg
   linkedin_url: http://www.linkedin.com/pub/darrell-zoromski/2/1a9/716
   tags:
   - Executives

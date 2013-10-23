@@ -27,9 +27,9 @@ namespace :data do
         person.linkedin_url = hash.linkedin_url
 
         person.tags << Tag.where(title: hash.tags)
-        unless hash.image =~ /blank\.png$/
-          image_url = URI::join(base_url, URI.encode(hash.image))
-          person.image = open(image_url)
+        unless hash.photo =~ /blank\.png$/
+          photo_url = URI::join(base_url, URI.encode(hash.photo))
+          person.photo = open(photo_url)
         end
 
         person.save!
@@ -94,7 +94,7 @@ namespace :data do
 
     def person_from_cell(cell)
       lines = cell.content.split("\n")
-      image = cell.css('img').first
+      photo = cell.css('img').first
       link = cell.css('a').first
 
       lines = lines.map { |line| line.strip }
@@ -111,7 +111,7 @@ namespace :data do
       person.name = name
       person.title = title
       person.company = company
-      person.image = image['src'] if image
+      person.photo = photo['src'] if photo
       person.linkedin_url = link['href'] if link
       person.tags = []
 
