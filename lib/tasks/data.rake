@@ -22,6 +22,8 @@ namespace :data do
 
         person = Person.where(first_name: first_name, last_name: last_name).first_or_initialize
 
+        next unless person.new_record?
+
         person.title = hash.title
         person.organization = hash.organization
         person.linkedin_url = hash.linkedin_url
