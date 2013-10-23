@@ -346,6 +346,7 @@ DEPENDENCIES
   jquery-rails
   just-datetime-picker
   linkedin-scraper
+  nokogiri
   paperclip
   pg
   rails (= 4.0.0)

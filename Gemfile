@@ -40,6 +40,7 @@ group :development, :test do
   gem 'capybara-webkit'
   gem 'factory_girl_rails'
   gem 'jazz_hands'
+  gem 'nokogiri'
   gem 'rspec-rails', '~> 2.0'
   gem 'timecop'
 end
