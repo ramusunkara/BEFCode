@@ -3,9 +3,9 @@ ActiveAdmin.register Event do
   form html: { multipart: true } do |f|
     f.inputs do
       f.input :starts_at, :as => :just_datetime_picker
-      f.input :photo
       f.input :title
       f.input :description, as: :html_editor
+      f.input :photo
       f.input :venue_name
       f.input :venue_street_address
       f.input :venue_city
