@@ -7,6 +7,10 @@ class EventDecorator < Draper::Decorator
   end
 
   def full_address
-    "#{venue_street_address} #{venue_city}, #{venue_state} #{venue_zip}"
+    "#{venue_street_address}, #{venue_city}, #{venue_state} #{venue_zip}"
+  end
+
+  def map_link
+    "https://maps.google.com/maps?q=#{venue_name}, #{full_address}"
   end
 end
