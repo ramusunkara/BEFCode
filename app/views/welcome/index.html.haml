@@ -1,8 +1,39 @@
-%h1 Welcome!
-- if upcoming_events.present?
-  %h2 Upcoming Events
-  - upcoming_events.each do |event|
-    = render partial: 'events/event', locals: {event: event}
-%h2 Past Events
-- past_events.each do |event|
-  = render partial: 'events/event', locals: {event: event}
+
+
+#headerwrap{style: "background: -prefix-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0)), url(#{event.photo.url(:huge)}); background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url(#{event.photo.url(:huge)}); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"}
+  %header.clearfix
+    .container
+      %article
+        %h1
+        %p.talk-speaker= event.speaker
+        %p.talk-title= event.title
+        %p.talk-date= event.starts_at
+        %p.talk-sponsor= event.host_name
+        %p.talk-location
+          %b= event.venue_name
+        %br
+        =event.full_address
+        %a{href: "foo"} rsvp
+
+.scrollblock
+  %section#feature
+    .container
+      %article
+        %p
+          The Badger Entrepreneurship Forum (BEF) is an organization of the University of Wisconsin Alumni in the San Francisco Bay Area interested in promoting and supporting the University and its alumni.
+
+%section#prev-speaker.single-page.scrollblock
+  .container
+    %h1 Previous Events
+    .row
+      - past_events.each do |event|
+        %span.col-md-4
+          %article.post
+            = image_tag(event.photo.url(:medium), class: 'img-prev-speakers')
+            .inside
+              %p.prev-speaker= event.speaker
+              %p.prev-title= event.title
+              %p.prev-date= event.short_event_date
+              %p.prev-sponsor= event.host_name
+              .entry-content
+                =link_to "READ MORE", event_path(event)

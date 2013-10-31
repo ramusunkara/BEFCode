@@ -1,18 +1,20 @@
-.event
-  - if event.photo.exists?
-    .image{style: 'display:inline-block'}
-      = image_tag event.photo.url(:medium)
-  .details{style: 'display:inline-block'}
-    %p
-      %b= event.starts_at
-    %h2= event.title
-    %p
-      Host:
-      = event.host_name
-    = event.description.html_safe if event.description.present?
-    %p.location
-      = event.venue_name
-      %br
-      = event.full_address
-    - if event.venue_street_address.present?
-      = link_to event.venue_name, event.map_link
+.row.event
+  .col-md-4
+    - if event.photo.exists?
+      .image
+        = image_tag event.photo.url(:medium)
+  .col-md-8
+    .details
+      %p
+        %b= event.short_event_date
+      %h2= event.title
+      %p
+        Host:
+        = event.host_name
+      = event.description.html_safe if event.description.present?
+      %p.location
+        = event.venue_name
+        %br
+        = event.full_address
+      - if event.venue_street_address.present?
+        = link_to event.venue_name, event.map_link

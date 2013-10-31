@@ -5,6 +5,7 @@ ActiveAdmin.register Event do
       f.input :starts_at, :as => :just_datetime_picker
       f.input :title
       f.input :description, as: :html_editor
+      f.input :speaker
       f.input :photo
       f.input :venue_name
       f.input :venue_street_address
