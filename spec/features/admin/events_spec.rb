@@ -42,6 +42,6 @@ feature 'Admin users' do
 
     visit '/events'
 
-    expect(page).to have_content 'Wednesday January 1, 2014 7:00 pm'
+    expect(page).to have_content 'January 1, 2014'
   end
 end

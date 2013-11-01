@@ -27,4 +27,9 @@ class Event < ActiveRecord::Base
   def self.upcoming_events
     published.where('starts_at is not null and starts_at >= ?', Time.now).order('events.starts_at asc')
   end
+
+  def self.without(event)
+    return self unless event
+    where('id != :id', id: event.id)
+  end
 end

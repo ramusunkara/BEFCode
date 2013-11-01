@@ -20,4 +20,12 @@ describe Event do
       expect(sql).to include %q(WHERE "events"."published" = 't')
     end
   end
+
+  describe '.without' do
+    let(:event) { create :event }
+    it 'does stuff' do
+      sql = Event.without(event).to_sql
+      expect(sql).to include %Q(id != #{event.id})
+    end
+  end
 end
