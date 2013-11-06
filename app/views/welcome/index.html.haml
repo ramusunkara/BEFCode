@@ -1,20 +1,20 @@
 
 
 - if event
-  #headerwrap{style: "background: -prefix-linear-gradient(left, rgba(0,0,0,1), rgba(0,0,0,0)), url(#{event.photo.url(:huge)}); background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0)), url(#{event.photo.url(:huge)}); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"}
+  #headerwrap{style: "background: url(#{event.photo.url(:huge)}); -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"}
     %header.clearfix
       .container
         %article
-          %h1
-          %p.talk-speaker= event.speaker
-          %p.talk-title= event.title
-          %p.talk-date= event.starts_at
-          %p.talk-sponsor= event.host_name
-          %p.talk-location
-            %b= event.venue_name
-          %br
-          =event.full_address
-          %a{href: "foo"} rsvp
+          .event
+            %p.talk-speaker= event.speaker
+            %p.talk-title= event.title
+            %p.talk-date= event.starts_at
+            %p.talk-sponsor= event.host_name
+            %p.talk-location
+              %b= event.venue_name
+            %p.talk-location
+              =event.full_address
+            %a{href: "foo"} rsvp
 
 .scrollblock
   %section#feature
