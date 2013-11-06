@@ -523,4 +523,68 @@ footer p {
   height: auto;
 }
 
+.tags {
+  margin-bottom: 30px;
+}
 
+.tags .active {
+  font-weight: bold;
+}
+
+.card {
+  background: white;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 0 5px 5px #E0E0E0;
+  -webkit-box-shadow: 0 0 5px 5px #E0E0E0;
+  box-shadow: 0 0 5px 5px #E0E0E0;
+  width:270px;
+  height:120px;
+  margin-bottom: 20px;
+  font-size: .9em;
+}
+
+.card .content {
+  padding:10px;
+}
+
+.card .content img.profile {
+  width:70px;
+  height:70px;
+  float:left;
+}
+
+.card .content .linkedin-img{
+  width:70px;
+  height:20px;
+  float:left;
+  padding-top: 5px;
+}
+
+.left-side {
+  width:30%;
+  float:left;
+}
+
+.right-side {
+  width:70%;
+  float:right;
+}
+
+.card .content .name {
+  float:clear;
+  color: #4d4d4d;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.card .content .title {
+  color: #4d4d4d;
+  margin-left: 10px;
+}
+
+.card .content .business {
+  color: #808080;
+  margin-left: 10px;
+}

@@ -1,22 +1,22 @@
 .tags
-  = link_to 'All', people_path
+  = link_to 'All', people_path, class: tag_title.blank? ? 'active' : ''
   - tags.each do |available_tag|
-    = link_to available_tag.title, people_path(tag_title: available_tag.title)
+    |
+    = link_to available_tag.title, people_path(tag_title: available_tag.title), class: tag_title == available_tag.title ? 'active' : ''
 
-<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-.people
+.row
   - people.each do |person|
-    .person-container{style: 'width: 300px; height:200px;display:inline-block;'}
-      - if person.linkedin_url.present?
-        <script type="IN/MemberProfile" data-id="#{person.linkedin_url}" data-format="inline" data-width="300" data-related="false"></script>
-      - else
-        .person{style: ' border: 1px solid #ddd;'}
-          .image{style: 'display:inline-block;'}
-            = image_tag person.photo.url(:thumb)
-          .details{style: 'display:inline-block;'}
-            %p
-              %b= person.full_name
-            %p= person.title
-            %p= person.organization
+    %span.col-md-4
+      .card
+        .content
+          .left-side
+            =image_tag(person.photo.url(:thumb), class: 'profile')
+            - if person.linkedin_url.present?
+              .linkedin-img= link_to image_tag('linkedin.png'), person.linkedin_url
+
+          .right-side
+            %p.name= person.full_name
+            %p.title= person.title
+            %p.business= person.organization
 
 
