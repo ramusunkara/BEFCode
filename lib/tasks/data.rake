@@ -25,7 +25,7 @@ namespace :data do
         next unless person.new_record?
 
         person.title = hash.title
-        person.organization = hash.organization
+        person.organization = hash.company
         person.linkedin_url = hash.linkedin_url
 
         person.tags << Tag.where(title: hash.tags)
