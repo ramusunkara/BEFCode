@@ -28,4 +28,34 @@ describe Event do
       expect(sql).to include %Q(id != #{event.id})
     end
   end
+
+  describe '#past?' do
+    let(:event) { create :event, starts_at: starts_at }
+
+    before { Time.freeze }
+
+    context 'when it starts in the past' do
+      let(:starts_at) { 1.second.ago }
+
+      it 'is true' do
+        expect(event).to be_past
+      end
+    end
+
+    context 'when it is now' do
+      let(:starts_at) { Time.now }
+
+      it 'is true' do
+        expect(event).to be_past
+      end
+    end
+
+    context 'when it is in the future' do
+      let(:starts_at) { 1.second.from_now }
+
+      it 'is false' do
+        expect(event).not_to be_past
+      end
+    end
+  end
 end

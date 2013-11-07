@@ -32,4 +32,8 @@ class Event < ActiveRecord::Base
     return self unless event
     where('id != :id', id: event.id)
   end
+
+  def past?
+    starts_at.past?
+  end
 end
