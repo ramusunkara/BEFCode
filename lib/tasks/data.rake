@@ -12,7 +12,7 @@ namespace :data do
       }
 
       people = YAML.load(File.open(filename))
-      people.each do |hash|
+      people.each_with_index do |hash, index|
         name_parts = hash.name.split
         if name_parts.count != 2
           name_parts = exceptions.fetch(hash.name)
@@ -21,6 +21,7 @@ namespace :data do
         first_name, last_name = name_parts
 
         person = Person.where(first_name: first_name, last_name: last_name).first_or_initialize
+        puts "#{index + 1} / #{people.count}: #{person.decorate.full_name}: #{person.new_record? ? 'new' : 'exists' }"
 
         next unless person.new_record?
 
