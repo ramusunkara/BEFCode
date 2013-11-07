@@ -14,7 +14,9 @@
               %b= event.venue_name
             %p.talk-location
               =event.full_address
-            %a{href: "foo"} rsvp
+            - if !Event.past_events.include?(event)
+              .rsvp
+                = link_to 'RSVP', event.rsvp_url
 
 .scrollblock
   %section#feature

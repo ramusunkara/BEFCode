@@ -12,7 +12,7 @@ class Event < ActiveRecord::Base
     if upcoming_events.any?
       upcoming_events.first
     else
-      past_events.last
+      past_events.first
     end
   end
 
