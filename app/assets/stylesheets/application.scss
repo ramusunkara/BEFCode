@@ -218,9 +218,8 @@ em {
   padding: 5px;
 }
 
-#headerwrap .rsvp {
+#headerwrap .more {
   height: 3em;
-  width:50%;
   margin-top: 15px;
 }
 #headerwrap .rsvp a {
@@ -345,12 +344,18 @@ section.single-page h1 {
   color: white;
   font-size: 1em;
   line-height: 1.25;
+  .host {
+    color: #aaa;
+  }
 }
 
 .talk-location {
   padding-top:8px;
   color: white;
   font-size: 1em;
+  .venue {
+    color: #aaa;
+  }
 }
 /* Events Page */
 .row.event {

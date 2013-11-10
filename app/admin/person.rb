@@ -10,10 +10,6 @@ ActiveAdmin.register Person do
     redirect_to admin_person_path(person)
   end
 
-  action_item only: [:show, :edit] do
-    link_to('Update from LinkedIn', update_from_linked_in_admin_person_path(resource), method: :post)
-  end
-
   form do |f|
     f.inputs 'Details' do
       f.input :first_name
@@ -33,6 +29,10 @@ ActiveAdmin.register Person do
     end
 
     f.actions
+  end
+
+  sidebar "LinkedIn", only: [:edit, :show] do
+    render :partial => "linkedin_sidebar", :locals => { :person => @person }
   end
 
   index do

@@ -12,8 +12,9 @@
         Host:
         = event.host_name
       %p.location
-        = event.venue_name
+        - if event.venue_street_address.present?
+          = link_to event.venue_name, event.map_link
         %br
         = event.full_address
-      - if event.venue_street_address.present?
-        = link_to event.venue_name, event.map_link
+      .more
+        = link_to 'Read More', event_path(event)
