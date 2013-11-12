@@ -16,6 +16,28 @@ describe Person do
     it { should_not have_valid(:last_name).when '', nil }
   end
 
+  describe '#display_name' do
+    let(:person) { build :person, first_name: 'Bob', last_name: 'Jones' }
+
+    it 'is the full name' do
+      expect(person.display_name).to eq 'Bob Jones'
+    end
+  end
+
+  describe '.mentors' do
+    it 'filters records where mentor is true' do
+      sql = Person.mentors.to_sql
+      expect(sql).to include %q(WHERE "people"."mentor" = 't')
+    end
+  end
+
+  describe '.board_members' do
+    it 'filters records where board_member is true' do
+      sql = Person.board_members.to_sql
+      expect(sql).to include %q(WHERE "people"."board_member" = 't')
+    end
+  end
+
   describe '.for_tag_title' do
     context 'when tag_title is not present' do
       let(:tag_title) { nil }

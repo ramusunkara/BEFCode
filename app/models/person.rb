@@ -12,7 +12,7 @@ class Person < ActiveRecord::Base
   default_scope { order(:last_name) }
 
   def display_name
-    "#{first_name} #{last_name}"
+    decorate.full_name
   end
 
   def self.mentors
