@@ -76,6 +76,8 @@ GEM
     capybara-webkit (1.0.0)
       capybara (~> 2.0, >= 2.0.2)
       json
+    chamber (0.0.2)
+      hashie (~> 2.0)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.2)
@@ -335,6 +337,7 @@ DEPENDENCIES
   aws-sdk (= 1.24.0)
   better_errors
   capybara-webkit
+  chamber
   coffee-rails (~> 4.0.0)
   decent_exposure
   devise
