@@ -5,7 +5,7 @@ development:
   mail:
     domain: siliconvalleybadgers.com
     sender: info+dev@siliconvalleybadgers.com
-    sengrid:
+    sendgrid:
       username:
         environment: SENDGRID_USERNAME
       password:
@@ -24,7 +24,7 @@ test:
   mail:
     domain: siliconvalleybadgers.com
     sender: info+test@siliconvalleybadgers.com
-    sengrid:
+    sendgrid:
       username:
         environment: SENDGRID_USERNAME
       password:
@@ -39,7 +39,7 @@ staging:
   mail:
     domain: siliconvalleybadgers.com
     sender: info+staging@siliconvalleybadgers.com
-    sengrid:
+    sendgrid:
       username:
         environment: SENDGRID_USERNAME
       password:
@@ -58,7 +58,7 @@ production:
   mail:
     domain: siliconvalleybadgers.com
     sender: info@siliconvalleybadgers.com
-    sengrid:
+    sendgrid:
       username:
         environment: SENDGRID_USERNAME
       password:
