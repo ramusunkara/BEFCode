@@ -3,7 +3,13 @@ development:
   port: 3000
   protocol: http
   mail:
+    domain: siliconvalleybadgers.com
     sender: info+dev@siliconvalleybadgers.com
+    sengrid:
+      username:
+        environment: SENDGRID_USERNAME
+      password:
+        environment: SENDGRID_PASSWORD
   s3:
     bucket: bef-development
     access_key_id:
@@ -16,7 +22,13 @@ test:
   port: 9887
   protocol: http
   mail:
+    domain: siliconvalleybadgers.com
     sender: info+test@siliconvalleybadgers.com
+    sengrid:
+      username:
+        environment: SENDGRID_USERNAME
+      password:
+        environment: SENDGRID_PASSWORD
   s3:
     bucket: bef-test
 
@@ -25,7 +37,13 @@ staging:
   port:
   protocol: http
   mail:
+    domain: siliconvalleybadgers.com
     sender: info+staging@siliconvalleybadgers.com
+    sengrid:
+      username:
+        environment: SENDGRID_USERNAME
+      password:
+        environment: SENDGRID_PASSWORD
   s3:
     bucket: bef-staging
     access_key_id:
@@ -38,7 +56,13 @@ production:
   port:
   protocol: http
   mail:
+    domain: siliconvalleybadgers.com
     sender: info@siliconvalleybadgers.com
+    sengrid:
+      username:
+        environment: SENDGRID_USERNAME
+      password:
+        environment: SENDGRID_PASSWORD
   s3:
     bucket: bef-production
     access_key_id:
