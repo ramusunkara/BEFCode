@@ -32,7 +32,7 @@ production:
   port:
   protocol: http
   s3:
-    bucket: bef
+    bucket: bef-production
     access_key_id:
       environment: S3_ACCESS_KEY_ID
     secret_access_key:
