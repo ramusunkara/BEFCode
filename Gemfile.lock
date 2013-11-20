@@ -76,7 +76,7 @@ GEM
     capybara-webkit (1.0.0)
       capybara (~> 2.0, >= 2.0.2)
       json
-    chamber (0.0.2)
+    chamber (0.0.4)
       hashie (~> 2.0)
     climate_control (0.0.3)
       activesupport (>= 3.0)
