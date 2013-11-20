@@ -38,13 +38,13 @@ BEF::Application.configure do
   # Setup default routing information
   #
   config.action_mailer.default_url_options = {
-    host: Settings.instance.host,
-    port: Settings.instance.port,
-    protocol: Settings.instance.protocol
+    host: Settings.host,
+    port: Settings.port,
+    protocol: Settings.protocol
   }
 
   config.action_dispatch.default_url_options = {
-    host: Settings.instance.host,
-    port: Settings.instance.port
+    host: Settings.host,
+    port: Settings.port
   }
 end

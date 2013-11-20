@@ -2,15 +2,15 @@ require 'spec_helper'
 
 describe Settings do
   it 'has a host setting' do
-    expect(Settings.instance.host).to eq 'localhost'
+    expect(Settings.host).to eq 'localhost'
   end
 
   it 'has a port setting' do
-    expect(Settings.instance.port).to eq 9887
+    expect(Settings.port).to eq 9887
   end
 
   it 'has a protocol setting' do
-    expect(Settings.instance.protocol).to eq 'http'
+    expect(Settings.protocol).to eq 'http'
   end
 
   context 'when there are environment-specific credentials' do
