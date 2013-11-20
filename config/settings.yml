@@ -2,6 +2,8 @@ development:
   host: localhost
   port: 3000
   protocol: http
+  mail:
+    sender: info+dev@siliconvalleybadgers.com
   s3:
     bucket: bef-development
     access_key_id:
@@ -13,6 +15,8 @@ test:
   host: localhost
   port: 9887
   protocol: http
+  mail:
+    sender: info+test@siliconvalleybadgers.com
   s3:
     bucket: bef-test
 
@@ -20,6 +24,8 @@ staging:
   host: bef-stage.herokuapp.com
   port:
   protocol: http
+  mail:
+    sender: info+staging@siliconvalleybadgers.com
   s3:
     bucket: bef-staging
     access_key_id:
@@ -31,6 +37,8 @@ production:
   host: siliconvalleybadgers.com
   port:
   protocol: http
+  mail:
+    sender: info@siliconvalleybadgers.com
   s3:
     bucket: bef-production
     access_key_id:
