@@ -8,6 +8,9 @@
   %p
     %b= event.short_event_date
   = event.description.html_safe
+  - if event.photo_album_url.present?
+    %p.photostream
+      = link_to "View photos from this event", event.photo_album_url
   %hr
   %p
     Host:
@@ -18,6 +21,3 @@
     = event.full_address
   - if event.venue_street_address.present?
     = link_to event.venue_name, event.map_link
-  - if event.photo_album_url.present?
-    %p.photostream
-      = link_to "Photos from this event", event.photo_album_url
