@@ -1,6 +1,8 @@
 =content_for :title do
   = event.title
 %h1=event.title
+%p
+  %b= event.speaker
 - if event.photo.exists?
   .image
     = image_tag event.photo.url(:large)

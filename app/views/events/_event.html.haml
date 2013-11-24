@@ -2,12 +2,14 @@
   .col-md-4
     - if event.photo.exists?
       .image
-        = image_tag event.photo.url(:medium)
+        = link_to(image_tag(event.photo.url(:medium)), event_path(event))
   .col-md-8
     .details
       %p
         %b= event.short_event_date
       %h2= event.title
+      %p
+        %b= event.speaker
       %p
         Host:
         = event.host_name
