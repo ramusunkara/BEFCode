@@ -21,5 +21,3 @@
       - if event.photo_album_url.present?
         %p.photostream
           = link_to "View photos from this event", event.photo_album_url
-      .more
-        = link_to 'Read More', event_path(event)

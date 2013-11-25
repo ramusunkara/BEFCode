@@ -39,11 +39,9 @@
       - past_events.each do |event|
         %span.col-md-4
           %article.post
-            = image_tag(event.photo.url(:medium), class: 'img-prev-speakers')
+            = link_to(image_tag(event.photo.url(:medium), class: 'img-prev-speakers'), event_path(event))
             .inside
               %p.prev-speaker= event.speaker
               %p.prev-title= event.title
               %p.prev-date= event.short_event_date
               %p.prev-sponsor= event.host_name
-              .entry-content
-                =link_to "READ MORE", event_path(event)
