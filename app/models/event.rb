@@ -1,4 +1,7 @@
 class Event < ActiveRecord::Base
+  extend FriendlyId
+  friendly_id :title, use: :slugged
+
   just_define_datetime_picker :starts_at
 
   validates :starts_at, presence: true
@@ -7,6 +10,7 @@ class Event < ActiveRecord::Base
   has_attached_file :photo, styles: { huge: '1200x600#', large: '600x300#', medium: '300x200#', thumb: '100x66#' }
 
   default_scope { order('events.starts_at desc') }
+
 
   def self.next_or_last
     if upcoming_events.any?
