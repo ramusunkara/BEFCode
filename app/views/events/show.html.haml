@@ -10,6 +10,7 @@
   %meta{property: 'og:url',       content: "#{event_url(event)}" }
   %meta{property: 'og:site_name', content: 'Badger Entrepreneurship Forum' }
   %meta{property: 'og:type',      content: 'website' }
+  %meta{property: 'og:app_id',    content: '470033196447198' }
 
 %h1=event.title
 %p
@@ -21,7 +22,7 @@
   %p
     %b= event.short_event_date
   = event.description.html_safe
-  = render 'events/buttons'
+  = render partial: 'events/buttons', locals: {event: event}
 
   - if event.photo_album_url.present?
     %p.photostream
