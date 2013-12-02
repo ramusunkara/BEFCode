@@ -11,9 +11,6 @@
   %meta{property: 'og:site_name', content: 'Badger Entrepreneurship Forum' }
   %meta{property: 'og:type',      content: 'website' }
 
-=content_for :body do
-  = render 'events/button_js'
-
 %h1=event.title
 %p
   %b= event.speaker
@@ -24,7 +21,8 @@
   %p
     %b= event.short_event_date
   = event.description.html_safe
-  .fb-share-button{:data => {:href => 'http://developers.facebook.com/docs/plugins/', :type => 'icon'}}
+  = render 'events/buttons'
+
   - if event.photo_album_url.present?
     %p.photostream
       = link_to "View photos from this event", event.photo_album_url
