@@ -3,13 +3,14 @@
 
 =content_for :head do
   - if event.photo.exists?
-    %meta{property: 'og:image',     content: [event.photo.url(:thumb)]  }
+    %meta{property: 'og:image',     content: "#{event.photo.url(:thumb)}"  }
   - else
-    %meta{property: 'og:image',     content: 'BascomHall.jpg'}
+    %meta{property: 'og:image',     content: "BascomHall.jpg" }
   %meta{property: 'og:title',     content: "#{event.title}" }
   %meta{property: 'og:url',       content: "#{event_url(event)}" }
   %meta{property: 'og:site_name', content: 'Badger Entrepreneurship Forum' }
   %meta{property: 'og:type',      content: 'website' }
+
 
 %h1=event.title
 %p
