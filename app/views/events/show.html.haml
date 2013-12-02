@@ -11,7 +11,7 @@
   %meta{property: 'og:site_name',   content: 'Badger Entrepreneurship Forum' }
   %meta{property: 'og:type',        content: 'website' }
   %meta{property: 'og:app_id',      content: '470033196447198' }
-  %meta{property: 'og:description', content: "#{event.description.split('. ').slice(0, 3).join('. ')}" }
+  %meta{property: 'og:description', content: "#{event.truncate_desc}" }
 
 %h1=event.title
 %p
