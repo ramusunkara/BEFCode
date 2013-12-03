@@ -1,4 +1,4 @@
-class Event < ActiveRecord::Base
+cplass Event < ActiveRecord::Base
   extend FriendlyId
   friendly_id :title, use: :slugged
 
