@@ -2,16 +2,15 @@
   = event.title
 
 =content_for :head do
+  %meta{property: 'og:url',         content: "#{event_url(event)}" }
+  %meta{property: 'og:title',       content: "#{event.title}" }
+  %meta{property: 'og:site_name',   content: 'Badger Entrepreneurship Forum' }
+  %meta{property: 'og:description', content: "#{event.truncate_desc}" }
+  %meta{property: 'og:type',        content: 'website' }
   - if event.photo.exists?
     %meta{property: 'og:image',     content: "#{event.photo.url(:thumb)}"  }
   - else
     %meta{property: 'og:image',     content: "BascomHall.jpg" }
-  %meta{property: 'og:title',       content: "#{event.title}" }
-  %meta{property: 'og:url',         content: "#{event_url(event)}" }
-  %meta{property: 'og:site_name',   content: 'Badger Entrepreneurship Forum' }
-  %meta{property: 'og:type',        content: 'website' }
-  %meta{property: 'og:app_id',      content: '470033196447198' }
-  %meta{property: 'og:description', content: "#{event.truncate_desc}" }
 
 %h1=event.title
 %p
