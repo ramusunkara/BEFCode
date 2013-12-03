@@ -26,10 +26,8 @@
     %p.photostream
       = link_to "View photos from this event", event.photo_album_url
   %hr
-  - if !event.past?
-    .share
-      %p Please Share
-      = render partial: 'events/buttons', locals: {event: event}
+  = render partial: 'events/buttons', locals: {event: event}
+  %hr
 
   %p
     Host:
