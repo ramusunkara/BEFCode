@@ -1,5 +1,15 @@
 ActiveAdmin.register Event do
 
+  controller do
+    def find_resource
+      Event.friendly.find(params[:id])
+    end
+
+    #def find_resource
+      #scoped_collection.friendly.find(params[:id])
+    #end
+  end
+
   form html: { multipart: true } do |f|
     f.inputs do
       f.input :starts_at, :as => :just_datetime_picker

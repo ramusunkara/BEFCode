@@ -25,6 +25,7 @@ gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
 gem 'validates_timeliness'
 gem 'validates_truthiness'
+gem 'friendly_id', github: 'norman/friendly_id'
 
 group :staging, :production do
   gem 'rails_12factor'

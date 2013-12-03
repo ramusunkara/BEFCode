@@ -11,10 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131030134327) do
-
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+ActiveRecord::Schema.define(version: 20131128225014) do
 
   create_table "active_admin_comments", force: true do |t|
     t.string   "namespace"
@@ -69,7 +66,10 @@ ActiveRecord::Schema.define(version: 20131030134327) do
     t.integer  "photo_file_size"
     t.datetime "photo_updated_at"
     t.string   "speaker"
+    t.string   "slug"
   end
+
+  add_index "events", ["slug"], name: "index_events_on_slug", using: :btree
 
   create_table "people", force: true do |t|
     t.string   "first_name",         null: false
