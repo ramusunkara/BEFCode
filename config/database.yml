@@ -3,9 +3,13 @@ development:
   encoding: unicode
   database: BEF_development
   pool: 5
+  username: BEF
+  password:
 
 test:
   adapter: postgresql
   encoding: unicode
   database: BEF_test
   pool: 5
+  username: BEF
+  password:
