@@ -22,12 +22,15 @@
   %p
     %b= event.short_event_date
   = event.description.html_safe
-  = render partial: 'events/buttons', locals: {event: event}
-
   - if event.photo_album_url.present?
     %p.photostream
       = link_to "View photos from this event", event.photo_album_url
   %hr
+  - if !event.past?
+    .share
+      %p Please Share
+      = render partial: 'events/buttons', locals: {event: event}
+
   %p
     Host:
     = event.host_name
