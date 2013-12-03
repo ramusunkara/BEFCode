@@ -1,9 +1,13 @@
 ActiveAdmin.register Event do
 
   controller do
-    def resource
-      Event.where(slug: params[:id]).first!
+    def find_resource
+      Event.friendly.find(params[:id])
     end
+
+    #def find_resource
+      #scoped_collection.friendly.find(params[:id])
+    #end
   end
 
   form html: { multipart: true } do |f|
