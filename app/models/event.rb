@@ -42,7 +42,7 @@ class Event < ActiveRecord::Base
 
   def truncate_desc(max_sentences = 3, max_words = 50)
     # Take first 3 setences
-    three_sentences = description.gsub(/&.*;/,'').scan(/[^\.!?]+[\.!?]/).map(&:strip)[0..max_sentences-1].join(' ')
+    three_sentences = description ? description.gsub(/&.*;/,'').scan(/[^\.!?]+[\.!?]/).map(&:strip)[0..max_sentences-1].join(' ') : ''
     # Take first 50 words of the above
     three_sentences.split(' ').slice(0, max_words).join(' ')
   end
