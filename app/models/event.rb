@@ -11,7 +11,6 @@ cplass Event < ActiveRecord::Base
 
   default_scope { order('events.starts_at desc') }
 
-
   def self.next_or_last
     if upcoming_events.any?
       upcoming_events.first
