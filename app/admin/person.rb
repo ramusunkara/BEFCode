@@ -41,6 +41,6 @@ ActiveAdmin.register Person do
     column :title
     column :organization
     column :linkedin_url
-    default_actions
+    actions
   end
 end

@@ -5,10 +5,15 @@ class PeopleController < ApplicationController
   expose(:tag_title) { params[:tag_title] }
   expose(:people) { Person.for_tag_title(tag_title).decorate }
   expose(:badger_mentors) { Person.mentors.decorate }
+  expose(:distinguish_people) { Role.where(tag_id: 9) }
+  expose(:distinguish_person) { Person.find(person_id) }
 
   def index
   end
 
   def mentors
   end
+
+  def distinguish_badgers;end
+  
 end

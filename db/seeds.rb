@@ -7,6 +7,7 @@ titles = %q(
   Consultants
   Faculty
   Philanthropists
+  Distinguished BayArea Badger
 )
 
 titles.split("\n").each do |title|

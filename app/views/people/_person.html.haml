@@ -1,0 +1,20 @@
+- person(person_id)
+.row.event
+  .col-md-4
+    - if @person.photo.exists?
+      .image
+        = link_to(image_tag(@person.photo.url(:medium)), peoples_path(@person))
+  .col-md-8
+    .details
+      %p
+        %b= short_person_date(@person.created_at)
+      %h2= @person.title
+      %p
+        Organization:
+        = @person.organization
+      %p
+        %b Full Name: 
+        = "#{@person.first_name}#{@person.last_name}"
+      %p
+        %b Linkedin URL
+        = link_to 'View Linkedin URL', @person.linkedin_url, target: '_blank'
