@@ -1,4 +1,4 @@
-%h1 Peoples
+%h1 People
 .events
 	- distinguish_people.each do |person|
 		= render partial: 'people/person', :locals => {:person_id => person.person_id}
