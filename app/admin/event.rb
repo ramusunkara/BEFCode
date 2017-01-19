@@ -36,6 +36,7 @@ ActiveAdmin.register Event do
     column :starts_at
     column :published
     column :rsvp_url
-    default_actions
+    
+    actions
   end
 end

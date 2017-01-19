@@ -12,6 +12,7 @@ class PeopleController < ApplicationController
 
   def mentors
   end
-
+  
   def distinguish_badgers;end
+
 end
