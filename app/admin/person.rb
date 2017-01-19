@@ -41,6 +41,7 @@ ActiveAdmin.register Person do
     column :title
     column :organization
     column :linkedin_url
+    
     actions
   end
 end
