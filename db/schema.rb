@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131128225014) do
+ActiveRecord::Schema.define(version: 20170123062411) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "active_admin_comments", force: true do |t|
+  create_table "active_admin_comments", force: :cascade do |t|
     t.string   "namespace"
     t.text     "body"
     t.string   "resource_id",   null: false
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20131128225014) do
   add_index "active_admin_comments", ["namespace"], name: "index_active_admin_comments_on_namespace", using: :btree
   add_index "active_admin_comments", ["resource_type", "resource_id"], name: "index_active_admin_comments_on_resource_type_and_resource_id", using: :btree
 
-  create_table "admin_users", force: true do |t|
+  create_table "admin_users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
@@ -49,7 +49,24 @@ ActiveRecord::Schema.define(version: 20131128225014) do
   add_index "admin_users", ["email"], name: "index_admin_users_on_email", unique: true, using: :btree
   add_index "admin_users", ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true, using: :btree
 
-  create_table "events", force: true do |t|
+  create_table "distinguish_badgers", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.date     "date"
+    t.string   "photo_file_name"
+    t.string   "photo_content_type"
+    t.integer  "photo_file_size"
+    t.datetime "photo_updated_at"
+    t.string   "organization"
+    t.string   "designation"
+    t.string   "linkedin_url"
+    t.string   "philanthropy_url"
+    t.text     "biography"
+    t.datetime "created_at",         null: false
+    t.datetime "updated_at",         null: false
+  end
+
+  create_table "events", force: :cascade do |t|
     t.datetime "starts_at",            null: false
     t.string   "title",                null: false
     t.string   "venue_name"
@@ -74,7 +91,7 @@ ActiveRecord::Schema.define(version: 20131128225014) do
 
   add_index "events", ["slug"], name: "index_events_on_slug", using: :btree
 
-  create_table "people", force: true do |t|
+  create_table "people", force: :cascade do |t|
     t.string   "first_name",         null: false
     t.string   "last_name",          null: false
     t.datetime "created_at"
@@ -90,14 +107,14 @@ ActiveRecord::Schema.define(version: 20131128225014) do
     t.datetime "photo_updated_at"
   end
 
-  create_table "roles", force: true do |t|
+  create_table "roles", force: :cascade do |t|
     t.integer  "person_id",  null: false
     t.integer  "tag_id",     null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  create_table "tags", force: true do |t|
+  create_table "tags", force: :cascade do |t|
     t.string   "title",      null: false
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -1,0 +1,27 @@
+%h1 Distinguish Badger People
+.events
+	- distinguish_people.each do |distinguish_badger|
+		.row.event
+			.col-md-4
+				- if distinguish_badger.photo.exists?
+					.image
+						= link_to(image_tag(distinguish_badger.photo.url(:medium)), distinguish_badger_path(distinguish_badger))
+			.col-md-8
+				.details
+					%p
+						%b= distinguish_badger.start_date
+					%p
+						= distinguish_badger.full_name
+					%p 
+						%b Organization:
+						= distinguish_badger.organization
+					%p 
+						%b Designation:
+						= distinguish_badger.designation
+					%p.photostream
+						= distinguish_badger.linkedin_url
+						%br
+						= distinguish_badger.philanthropy_url
+						%br
+					%p
+						= distinguish_badger.biography

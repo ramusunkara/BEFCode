@@ -1,13 +1,13 @@
 BEF::Application.routes.draw do
   resources :events
   resources :people
+  resources :distinguish_badgers, only: [:index, :show]
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
   root 'welcome#index'
-  get 'contact', to: 'welcome#contact'
+  # get 'contact', to: 'welcome#contact'
   get 'about', to: 'welcome#about'
   get 'mentors', to: 'people#mentors'
-  get 'distinguish_badgers/people', to: 'people#distinguish_badgers'
 end

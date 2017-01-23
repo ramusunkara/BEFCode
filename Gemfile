@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-ruby '2.0.0'
+ruby '2.3.1'
 
-gem 'rails', '4.0.0'
+gem 'rails', '4.2.6'
 
 gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'active_admin_editor'
-gem 'aws-sdk', '1.24.0'
+gem 'aws-sdk'
 gem 'chamber'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'decent_exposure'
@@ -37,14 +37,16 @@ group :test do
 end
 
 group :development, :test do
-  gem 'better_errors'
-  gem 'capybara-webkit'
-  gem 'factory_girl_rails'
-  gem 'jazz_hands'
-  gem 'launchy'
+  gem 'byebug'
+  gem 'pry'
+  # gem 'better_errors'
+  # gem 'capybara-webkit'
+  # gem 'factory_girl_rails'
+  # gem 'jazz_hands'
+  # gem 'launchy'
   gem 'nokogiri'
-  gem 'rspec-rails', '~> 2.0'
-  gem 'timecop'
+  # gem 'rspec-rails', '~> 2.0'
+  # gem 'timecop'
 end
 
 group :doc do

@@ -8,11 +8,10 @@
       %a.navbar-brand{href: '/'}
     .navbar-collapse.collapse
       %ul.nav.navbar-nav#menu-main
-        = nav_link_to 'Badger Entrepreneurship Forum', root_path
-        = nav_link_to 'About', about_path
+        /= nav_link_to 'Badger Entrepreneurship Forum', root_path
         = nav_link_to 'Events', events_path
+        = nav_link_to 'Distinguish Badgers', distinguish_badgers_path
         = nav_link_to 'Badgers', people_path
-        = nav_link_to 'Distinguish Badgers', distinguish_badgers_people_path
         = nav_link_to 'Mentors', mentors_path
-        = nav_link_to 'Contact', contact_path
-
+        = nav_link_to 'About', about_path
+        /= nav_link_to 'Contact', contact_path

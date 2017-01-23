@@ -1,5 +1,5 @@
-%h1 People
+%h1 Distinguish Badger People
 .events
 	- distinguish_people.each do |person|
-		= render partial: 'people/person', :locals => {:person_id => person.person_id}
+		= render partial: 'people/person', :locals => {:person_id => person}
 		
