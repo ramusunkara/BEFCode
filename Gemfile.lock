@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/gregbell/active_admin.git
-  revision: d5a698ce5de110043514b7593e8af8479259c9bf
+  revision: 86688ac4a223f24af98ff3c2b80c52812d219c5e
   specs:
     activeadmin (1.0.0.pre4)
       arbre (~> 1.0, >= 1.0.2)
@@ -69,13 +69,13 @@ GEM
     arbre (1.1.1)
       activesupport (>= 3.0.0)
     arel (6.0.4)
-    aws-sdk (2.6.48)
-      aws-sdk-resources (= 2.6.48)
-    aws-sdk-core (2.6.48)
+    aws-sdk (2.7.0)
+      aws-sdk-resources (= 2.7.0)
+    aws-sdk-core (2.7.0)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.6.48)
-      aws-sdk-core (= 2.6.48)
+    aws-sdk-resources (2.7.0)
+      aws-sdk-core (= 2.7.0)
     aws-sigv4 (1.0.0)
     bcrypt (3.1.11)
     bourbon (3.2.4)
@@ -344,7 +344,7 @@ DEPENDENCIES
   validates_truthiness
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.3.0p0
 
 BUNDLED WITH
    1.13.7
