@@ -8,6 +8,7 @@ class Event < ActiveRecord::Base
   validates :title, presence: true
 
   has_attached_file :photo, styles: { huge: '1200x600#', large: '600x300#', medium: '300x200#', thumb: '100x66#' }
+  validates_attachment_content_type :photo, :content_type => /\Aimage\/.*\Z/
 
   default_scope { order('events.starts_at desc') }
 

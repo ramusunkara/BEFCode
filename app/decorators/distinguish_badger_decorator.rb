@@ -6,7 +6,7 @@ class DistinguishBadgerDecorator < Draper::Decorator
   end
 
   def start_date
-  	date.strftime('%B %-d, %Y')
+  	date.strftime('%B %-d, %Y') if date
   end
 
   def linkedin_url
