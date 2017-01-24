@@ -14,7 +14,7 @@ ActiveAdmin.register DistinguishBadger do
     f.inputs 'Details' do
       f.input :first_name
       f.input :last_name
-      f.input :date
+      f.input :date, start_year: Time.now.year - 16, end_year: Time.now.year
       f.input :organization
       f.input :designation
       f.input :linkedin_url
