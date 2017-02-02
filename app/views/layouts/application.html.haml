@@ -3,7 +3,8 @@
   %head
     = content_for?(:head) ? yield(:head) : ''
     %meta{:name => "viewport", :content => "width=device-width, initial-scale=1, maximum-scale=1.0"}
-    %title= content_for?(:title) ? yield(:title) : "Bay Area Badger Distinguished Alumni Award Winners"
+    %title= content_for :title || 'Bay Area Badger Distinguished Alumni Award Winners'
+    / %title= content_for?(:title) ? yield(:title) : "Bay Area Badger Distinguished Alumni Award Winners"
     %meta{:content => content_for?(:description) ? yield(:description) : "The Badger Entrepreneurship Forum (BEF) is an organization of the University of Wisconsin Alumni in the San Francisco Bay Area interested in promoting and supporting the University and its alumni.", :name => "description"}
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     = stylesheet_link_tag :application, :media => "all"
